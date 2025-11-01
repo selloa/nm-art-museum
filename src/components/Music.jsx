@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { audioManager } from '../utils/audioManager'
 import './Music.css'
 
 function Music() {
+  const { t } = useTranslation()
   const [playingId, setPlayingId] = useState(null)
 
   const tracks = [
-    { filename: 'Twilight.mp3', id: 'twilight', name: 'Twilight' },
-    { filename: 'Tracy am Apparat.mp3', id: 'tracy', name: 'Tracy' },
-    { filename: 'Labor bei Nacht.mp3', id: 'dungeon', name: 'Dungeon' },
+    { filename: 'Twilight.mp3', id: 'twilight' },
+    { filename: 'Tracy am Apparat.mp3', id: 'tracy' },
+    { filename: 'Labor bei Nacht.mp3', id: 'dungeon' },
   ]
 
   useEffect(() => {
@@ -47,9 +49,9 @@ function Music() {
   return (
     <section className="music" id="music">
       <div className="section-header">
-        <h2 className="section-title">Music</h2>
+        <h2 className="section-title">{t('music.title')}</h2>
         <p className="section-description">
-          The soundtrack that sets the mood for Night of the Meteor. Each track enhances the pixel art adventure.
+          {t('music.description')}
         </p>
       </div>
       <div className="music-grid">
@@ -64,7 +66,7 @@ function Music() {
               </button>
               <div className="music-info">
                 <div className="music-icon">♪</div>
-                <h3 className="music-name">{track.name}</h3>
+                <h3 className="music-name">{t(`music.list.${track.id}.name`)}</h3>
               </div>
             </div>
           </div>

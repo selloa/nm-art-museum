@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { audioManager } from '../utils/audioManager'
 import './Animations.css'
 
@@ -6,14 +7,15 @@ const AUDIO_ID = 'animations-background'
 const AUDIO_SRC = '/music/Twilight.mp3'
 
 function Animations() {
+  const { t } = useTranslation()
   const [isPlaying, setIsPlaying] = useState(false)
 
   const animations = [
-    { filename: 'attack.gif', id: 'attack', name: 'Attack Animation' },
-    { filename: 'custom.gif', id: 'custom', name: 'Custom Character Animation' },
-    { filename: 'host.gif', id: 'host', name: 'New Character Animation' },
-    { filename: 'sleep.gif', id: 'sleep', name: 'Cutscene Animation' },
-    { filename: 'walk.gif', id: 'walk', name: 'Walk Cycle' },
+    { filename: 'attack.gif', id: 'attack' },
+    { filename: 'custom.gif', id: 'custom' },
+    { filename: 'host.gif', id: 'host' },
+    { filename: 'sleep.gif', id: 'sleep' },
+    { filename: 'walk.gif', id: 'walk' },
   ]
 
   useEffect(() => {
@@ -45,14 +47,14 @@ function Animations() {
       <button 
         className="animations-music-button"
         onClick={handlePlayPause}
-        aria-label={isPlaying ? 'Stop background music' : 'Play background music'}
+        aria-label={isPlaying ? t('animations.musicButton.stop') : t('animations.musicButton.play')}
       >
         {isPlaying ? '⏸' : '▶'}
       </button>
       <div className="section-header">
-        <h2 className="section-title">Animations</h2>
+        <h2 className="section-title">{t('animations.title')}</h2>
         <p className="section-description">
-          Pixel-perfect animated GIFs showcasing the game's dynamic moments and character movements.
+          {t('animations.description')}
         </p>
       </div>
       <div className="animations-grid">
@@ -65,11 +67,11 @@ function Animations() {
               <div className="gif-badge">GIF</div>
               <img 
                 src={`/animations/${animation.filename}`}
-                alt={animation.name}
+                alt={t(`animations.list.${animation.id}.name`)}
                 className="animation-image"
               />
             </div>
-            <h3 className="animation-name">{animation.name}</h3>
+            <h3 className="animation-name">{t(`animations.list.${animation.id}.name`)}</h3>
           </div>
         ))}
       </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { audioManager } from '../utils/audioManager'
 import './Locations.css'
 
@@ -6,15 +7,16 @@ const AUDIO_ID = 'locations-background'
 const AUDIO_SRC = '/music/Labor bei Nacht.mp3'
 
 function Locations() {
+  const { t } = useTranslation()
   const [isPlaying, setIsPlaying] = useState(false)
 
   const locations = [
-    { name: 'Mansion Entrance', id: 'loc1', image: '/locations/Mansion Entrance.png' },
-    { name: 'Labratory', id: 'loc2', image: '/locations/Labratory.png' },
-    { name: 'Basement', id: 'loc3', image: '/locations/Basement.png' },
-    { name: 'Attic', id: 'loc4', image: '/locations/Attic.png' },
-    { name: 'Library', id: 'loc5', image: '/locations/Library.png' },
-    { name: 'Kitchen', id: 'loc6', image: '/locations/Kitchen.png' },
+    { id: 'loc1', image: '/locations/Mansion Entrance.png' },
+    { id: 'loc2', image: '/locations/Labratory.png' },
+    { id: 'loc3', image: '/locations/Basement.png' },
+    { id: 'loc4', image: '/locations/Attic.png' },
+    { id: 'loc5', image: '/locations/Library.png' },
+    { id: 'loc6', image: '/locations/Kitchen.png' },
   ]
 
   useEffect(() => {
@@ -46,14 +48,14 @@ function Locations() {
       <button 
         className="locations-music-button"
         onClick={handlePlayPause}
-        aria-label={isPlaying ? 'Stop background music' : 'Play background music'}
+        aria-label={isPlaying ? t('locations.musicButton.stop') : t('locations.musicButton.play')}
       >
         {isPlaying ? '⏸' : '▶'}
       </button>
       <div className="section-header">
-        <h2 className="section-title">Locations</h2>
+        <h2 className="section-title">{t('locations.title')}</h2>
         <p className="section-description">
-          Explore the detailed pixel art environments. Each location is crafted with care to create an immersive adventure.
+          {t('locations.description')}
         </p>
       </div>
       <div className="locations-grid">
@@ -63,17 +65,17 @@ function Locations() {
               {location.image ? (
                 <img 
                   src={location.image} 
-                  alt={location.name}
+                  alt={t(`locations.list.${location.id}.name`)}
                   className="location-image"
                 />
               ) : (
                 <div className="location-image-placeholder">
-                  <span className="placeholder-label">Background</span>
-                  <span className="placeholder-dimensions">640x400</span>
+                  <span className="placeholder-label">{t('locations.placeholder.label')}</span>
+                  <span className="placeholder-dimensions">{t('locations.placeholder.dimensions')}</span>
                 </div>
               )}
             </div>
-            <h3 className="location-name">{location.name}</h3>
+            <h3 className="location-name">{t(`locations.list.${location.id}.name`)}</h3>
           </div>
         ))}
       </div>

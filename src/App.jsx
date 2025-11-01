@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import Hero from './components/Hero'
 import Villains from './components/Villains'
 import Locations from './components/Locations'
 import Characters from './components/Characters'
 import Animations from './components/Animations'
 import Music from './components/Music'
+import LanguageSelector from './components/LanguageSelector'
 import './App.css'
 
 function App() {
+  const { t } = useTranslation()
   const [showBackToTop, setShowBackToTop] = useState(false)
 
   useEffect(() => {
@@ -31,6 +34,7 @@ function App() {
 
   return (
     <div className="app">
+      <LanguageSelector />
       <Hero />
       <Villains />
       <Locations />
@@ -43,7 +47,7 @@ function App() {
         <button
           className="back-to-top"
           onClick={scrollToTop}
-          aria-label="Back to top"
+          aria-label={t('app.backToTop')}
         >
           ↑
         </button>
