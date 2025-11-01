@@ -1,24 +1,22 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import enTranslations from './locales/en.json'
-import frTranslations from './locales/fr.json'
-import itTranslations from './locales/it.json'
-import deTranslations from './locales/de.json'
-import esTranslations from './locales/es.json'
-import svTranslations from './locales/sv.json'
-import fiTranslations from './locales/fi.json'
-import noTranslations from './locales/no.json'
 
-const resources = {
-  en: { translation: enTranslations },
-  fr: { translation: frTranslations },
-  it: { translation: itTranslations },
-  de: { translation: deTranslations },
-  es: { translation: esTranslations },
-  sv: { translation: svTranslations },
-  fi: { translation: fiTranslations },
-  no: { translation: noTranslations },
+// Dynamically import all locale files using Vite's import.meta.glob
+const localeModules = import.meta.glob('./locales/*.json', { eager: true })
+
+// Build resources object dynamically from all locale files
+const resources = {}
+for (const path in localeModules) {
+  // Extract language code from path (e.g., './locales/en.json' -> 'en')
+  const match = path.match(/\.\/locales\/(.+)\.json$/)
+  if (match) {
+    const langCode = match[1]
+    resources[langCode] = { translation: localeModules[path].default || localeModules[path] }
+  }
 }
+
+// Get available language codes from resources
+export const getAvailableLanguages = () => Object.keys(resources)
 
 // Get saved language from localStorage or default to English
 const getStoredLanguage = () => {

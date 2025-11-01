@@ -1,20 +1,51 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { getAvailableLanguages } from '../i18n/config'
 import './LanguageSelector.css'
 
-const languages = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
-  { code: 'fi', name: 'Suomi', flag: '🇫🇮' },
-  { code: 'no', name: 'Norsk', flag: '🇳🇴' },
-]
+// Language metadata for display names and flags
+// Falls back to native language name if not specified
+const languageMetadata = {
+  en: { name: 'English', flag: '🇬🇧' },
+  fr: { name: 'Français', flag: '🇫🇷' },
+  it: { name: 'Italiano', flag: '🇮🇹' },
+  de: { name: 'Deutsch', flag: '🇩🇪' },
+  es: { name: 'Español', flag: '🇪🇸' },
+  sv: { name: 'Svenska', flag: '🇸🇪' },
+  fi: { name: 'Suomi', flag: '🇫🇮' },
+  no: { name: 'Norsk', flag: '🇳🇴' },
+  // Add more as needed, or they'll fall back to native name
+}
+
+// Get native language name using Intl API
+const getNativeLanguageName = (code) => {
+  try {
+    return new Intl.DisplayNames([code], { type: 'language' }).of(code) || code.toUpperCase()
+  } catch {
+    return code.toUpperCase()
+  }
+}
 
 function LanguageSelector() {
   const { i18n } = useTranslation()
+  
+  // Dynamically build languages list from available locales
+  const languages = useMemo(() => {
+    const availableCodes = getAvailableLanguages().sort()
+    
+    return availableCodes.map((code) => {
+      const metadata = languageMetadata[code]
+      if (metadata) {
+        return { code, ...metadata }
+      }
+      // Fallback for languages not in metadata
+      return {
+        code,
+        name: getNativeLanguageName(code),
+        flag: '', // No flag for unknown languages
+      }
+    })
+  }, [])
 
   const handleLanguageChange = (languageCode) => {
     i18n.changeLanguage(languageCode)
@@ -33,7 +64,7 @@ function LanguageSelector() {
       >
         {languages.map((lang) => (
           <option key={lang.code} value={lang.code}>
-            {lang.flag} {lang.name}
+            {lang.flag ? `${lang.flag} ` : ''}{lang.name}
           </option>
         ))}
       </select>
