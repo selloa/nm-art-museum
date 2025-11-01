@@ -1,154 +1,153 @@
 {
-  "app": {
-    "title": "Meteoriitin Yö - Taidetemo",
-    "backToTop": "Takaisin ylös"
-  },
-  "hero": {
-    "title": "Meteoriitin Yö",
-    "subtitle": "Maniac Mansion Fan Remake",
-    "description": "Tervetuloa Edisoneiden kartanoon. 20 vuotta sitten suuri meteoriitti törmäsi Edisoneiden pihaan. Meteoriitti oli itse asiassa pahamaineinen Murhaava Violetti Limainen Meteoriitti, galaksin kauhu! Käyttäen tri Frediä työkalunaan, meteoriitti on alkanut siepata teini-ikäisiä imemään heidän aivonsa ulos. Viimeisimmässä sieppauksessa on mukana Daven tyttöystävä Sandy, cheerleader. Ei sellainen, joka ottaa asiat kevyesti, Dave värvää ystäviä avukseen ja menee kartanoon löytääkseen Sandyn.",
-    "descriptionSecondary": "Tervetuloa taiteilijat! Tutustu pikselitaide-universumiin, jota rakennamme. Vieritä alaspäin löytääksesi hahmot, pahikset, sijainnit, animaatiot ja musiikin.",
-    "musicButton": {
-      "play": "Soita taustamusiikkia",
-      "stop": "Pysäytä taustamusiikki"
+    "app": {
+        "title": "Meteoriitin Yö - Taidetemo",
+        "backToTop": "Takaisin ylös"
     },
-    "imageAlt": "Meteoriitin Yö - Pääpelitaide"
-  },
-  "characters": {
-    "title": "Hahmot",
-    "description": "Tapaa Meteoriitin Yön henkilöstö. Jokainen hahmo tuo ainutlaatuisia kykyjä ja persoonallisuutta seikkailuun.",
-    "list": {
-      "dave": {
-        "name": "Dave",
-        "description": "Sankari, sinun täytyy käyttää tätä kaveria. Ei erityisiä taitoja, mutta loistava soundtrack."
-      },
-      "bernard": {
-        "name": "Bernard",
-        "description": "Asuva nörtti. Voi korjata radion soittaakseen meteoriittipoliisille ja korjata puhelimen."
-      },
-      "syd": {
-        "name": "Syd",
-        "description": "Siisti muusikko mahtavilla aurinkolaseilla. Pianoin mestari."
-      },
-      "razor": {
-        "name": "Razor",
-        "description": "Punk rockeri. Erinomainen pianisti. Sama kuin Syd kaikilta osin paitsi sukupuolelta."
-      },
-      "michael": {
-        "name": "Michael",
-        "description": "Valokuvaaja, joka voi kehittää filmin. Ainoa, joka voi saada Weird Edin auttamaan sinua."
-      },
-      "wendy": {
-        "name": "Wendy",
-        "description": "Kirjailija, joka haluaa tulla kuuluisaksi romaanikirjailijaksi. Voi muokata huonoja käsikirjoituksia kirjoituskoneilla."
-      },
-      "jeff": {
-        "name": "Jeff",
-        "description": "Rantahippi, jonka ainoa tavoite on asua pakettiautossa meren rannalla. Voi korjata puhelimen."
-      }
-    }
-  },
-  "villains": {
-    "title": "Pahikset",
-    "description": "Meteoriitin Yön antagonistit. Jokainen pahis esittää ainutlaatuisia haasteita ja synkkiä suunnitelmia.",
-    "list": {
-      "dr-fred": {
-        "name": "Tri Fred Edison",
-        "description": "Asuva hullu tiedemies, jota meteoriitti hallitsee. Ei ollut niin paha tyyppi ennen kuin meteoriitti otti vallan."
-      },
-      "edna": {
-        "name": "Sairaanhoitaja Edna Edison",
-        "description": "Yksi dementoitu nainen. Ainoa Edison, joka EI KOSKAAN liity puolellesi. Vältä häntä kaikin keinoin."
-      },
-      "weird-ed": {
-        "name": "Weird Ed Edison",
-        "description": "Sotilasguru. Ainoa järkevä henkilö kartanossa. Haluaa vain päästä eroon meteoriitista ja pelastaa isänsä."
-      },
-      "ted": {
-        "name": "Kuollut Serkku Ted Edison",
-        "description": "Teknisesti koskaan vuorovaikutettu, koska hän on kuollut, mutta mainitaan paljon kartanon läpi."
-      },
-      "green-tentacle": {
-        "name": "Vihreä Lonkero",
-        "description": "Liian masentunut välittämään tunkeilijoiden. Voi olla hyödyllinen liittolainen, mutta mania-depressiivinen ja voisi muuttua väkivaltaiseksi nopeasti."
-      },
-      "purple-tentacle": {
-        "name": "Violetti Lonkero",
-        "description": "Vartioi tri Fredin sisäisen laboratorion ovea. Lähes kaikki lasten erikoiskyvyt on suunnattu tämän kaverin ohittamiseen."
-      }
-    }
-  },
-  "locations": {
-    "title": "Sijainnit",
-    "description": "Tutustu yksityiskohtaisiin pikselitaide-ympäristöihin. Jokainen sijainti on huolellisesti käsitelty luomaan mukaansatempaavan seikkailun.",
-    "musicButton": {
-      "play": "Soita taustamusiikkia",
-      "stop": "Pysäytä taustamusiikki"
+    "hero": {
+        "title": "Meteoriitin Yö",
+        "subtitle": "Maniac Mansion Fan Remake",
+        "description": "Tervetuloa Edisoneiden kartanoon. 20 vuotta sitten suuri meteoriitti törmäsi Edisoneiden pihaan. Meteoriitti oli itse asiassa pahamaineinen Murhaava Violetti Limainen Meteoriitti, galaksin kauhu! Käyttäen tri Frediä työkalunaan, meteoriitti on alkanut siepata teini-ikäisiä imemään heidän aivonsa ulos. Viimeisimmässä sieppauksessa on mukana Daven tyttöystävä Sandy, cheerleader. Ei sellainen, joka ottaa asiat kevyesti, Dave värvää ystäviä avukseen ja menee kartanoon löytääkseen Sandyn.",
+        "descriptionSecondary": "Tervetuloa taiteilijat! Tutustu pikselitaide-universumiin, jota rakennamme. Vieritä alaspäin löytääksesi hahmot, pahikset, sijainnit, animaatiot ja musiikin.",
+        "musicButton": {
+            "play": "Soita taustamusiikkia",
+            "stop": "Pysäytä taustamusiikki"
+        },
+        "imageAlt": "Meteoriitin Yö - Pääpelitaide"
     },
-    "placeholder": {
-      "label": "Tausta",
-      "dimensions": "640x400"
+    "characters": {
+        "title": "Hahmot",
+        "description": "Tapaa Meteoriitin Yön henkilöstö. Jokainen hahmo tuo ainutlaatuisia kykyjä ja persoonallisuutta seikkailuun.",
+        "list": {
+            "dave": {
+                "name": "Dave",
+                "description": "Sankari, sinun täytyy käyttää tätä kaveria. Ei erityisiä taitoja, mutta loistava soundtrack."
+            },
+            "bernard": {
+                "name": "Bernard",
+                "description": "Asuva nörtti. Voi korjata radion soittaakseen meteoriittipoliisille ja korjata puhelimen."
+            },
+            "syd": {
+                "name": "Syd",
+                "description": "Siisti muusikko mahtavilla aurinkolaseilla. Pianoin mestari."
+            },
+            "razor": {
+                "name": "Razor",
+                "description": "Punk rockeri. Erinomainen pianisti. Sama kuin Syd kaikilta osin paitsi sukupuolelta."
+            },
+            "michael": {
+                "name": "Michael",
+                "description": "Valokuvaaja, joka voi kehittää filmin. Ainoa, joka voi saada Weird Edin auttamaan sinua."
+            },
+            "wendy": {
+                "name": "Wendy",
+                "description": "Kirjailija, joka haluaa tulla kuuluisaksi romaanikirjailijaksi. Voi muokata huonoja käsikirjoituksia kirjoituskoneilla."
+            },
+            "jeff": {
+                "name": "Jeff",
+                "description": "Rantahippi, jonka ainoa tavoite on asua pakettiautossa meren rannalla. Voi korjata puhelimen."
+            }
+        }
     },
-    "list": {
-      "loc1": {
-        "name": "Kartanon Pääsy"
-      },
-      "loc2": {
-        "name": "Laboratorio"
-      },
-      "loc3": {
-        "name": "Kellari"
-      },
-      "loc4": {
-        "name": "Vintti"
-      },
-      "loc5": {
-        "name": "Kirjasto"
-      },
-      "loc6": {
-        "name": "Keittiö"
-      }
-    }
-  },
-  "animations": {
-    "title": "Animaatiot",
-    "description": "Pikseli-täydelliset animoidut GIFit, jotka esittelevät pelin dynaamisia hetkiä ja hahmoliikkeitä.",
-    "musicButton": {
-      "play": "Soita taustamusiikkia",
-      "stop": "Pysäytä taustamusiikki"
+    "villains": {
+        "title": "Pahikset",
+        "description": "Meteoriitin Yön antagonistit. Jokainen pahis esittää ainutlaatuisia haasteita ja synkkiä suunnitelmia.",
+        "list": {
+            "dr-fred": {
+                "name": "Tri Fred Edison",
+                "description": "Asuva hullu tiedemies, jota meteoriitti hallitsee. Ei ollut niin paha tyyppi ennen kuin meteoriitti otti vallan."
+            },
+            "edna": {
+                "name": "Sairaanhoitaja Edna Edison",
+                "description": "Yksi dementoitu nainen. Ainoa Edison, joka EI KOSKAAN liity puolellesi. Vältä häntä kaikin keinoin."
+            },
+            "weird-ed": {
+                "name": "Weird Ed Edison",
+                "description": "Sotilasguru. Ainoa järkevä henkilö kartanossa. Haluaa vain päästä eroon meteoriitista ja pelastaa isänsä."
+            },
+            "ted": {
+                "name": "Kuollut Serkku Ted Edison",
+                "description": "Teknisesti koskaan vuorovaikutettu, koska hän on kuollut, mutta mainitaan paljon kartanon läpi."
+            },
+            "green-tentacle": {
+                "name": "Vihreä Lonkero",
+                "description": "Liian masentunut välittämään tunkeilijoiden. Voi olla hyödyllinen liittolainen, mutta mania-depressiivinen ja voisi muuttua väkivaltaiseksi nopeasti."
+            },
+            "purple-tentacle": {
+                "name": "Violetti Lonkero",
+                "description": "Vartioi tri Fredin sisäisen laboratorion ovea. Lähes kaikki lasten erikoiskyvyt on suunnattu tämän kaverin ohittamiseen."
+            }
+        }
     },
-    "list": {
-      "attack": {
-        "name": "Hyökkäysanimaatio"
-      },
-      "custom": {
-        "name": "Mukautettu Hahmoanimaatio"
-      },
-      "host": {
-        "name": "Uusi Hahmoanimaatio"
-      },
-      "sleep": {
-        "name": "Välianimaatio"
-      },
-      "walk": {
-        "name": "Kävelysykli"
-      }
+    "locations": {
+        "title": "Sijainnit",
+        "description": "Tutustu yksityiskohtaisiin pikselitaide-ympäristöihin. Jokainen sijainti on huolellisesti käsitelty luomaan mukaansatempaavan seikkailun.",
+        "musicButton": {
+            "play": "Soita taustamusiikkia",
+            "stop": "Pysäytä taustamusiikki"
+        },
+        "placeholder": {
+            "label": "Tausta",
+            "dimensions": "640x400"
+        },
+        "list": {
+            "loc1": {
+                "name": "Kartanon Pääsy"
+            },
+            "loc2": {
+                "name": "Laboratorio"
+            },
+            "loc3": {
+                "name": "Kellari"
+            },
+            "loc4": {
+                "name": "Vintti"
+            },
+            "loc5": {
+                "name": "Kirjasto"
+            },
+            "loc6": {
+                "name": "Keittiö"
+            }
+        }
+    },
+    "animations": {
+        "title": "Animaatiot",
+        "description": "Pikseli-täydelliset animoidut GIFit, jotka esittelevät pelin dynaamisia hetkiä ja hahmoliikkeitä.",
+        "musicButton": {
+            "play": "Soita taustamusiikkia",
+            "stop": "Pysäytä taustamusiikki"
+        },
+        "list": {
+            "attack": {
+                "name": "Hyökkäysanimaatio"
+            },
+            "custom": {
+                "name": "Mukautettu Hahmoanimaatio"
+            },
+            "host": {
+                "name": "Uusi Hahmoanimaatio"
+            },
+            "sleep": {
+                "name": "Välianimaatio"
+            },
+            "walk": {
+                "name": "Kävelysykli"
+            }
+        }
+    },
+    "music": {
+        "title": "Musiikki",
+        "description": "Soundtrack, joka luo tunnelman Meteoriitin Yölle. Jokainen raita parantaa pikselitaide-seikkailua.",
+        "list": {
+            "twilight": {
+                "name": "Hämärä"
+            },
+            "tracy": {
+                "name": "Tracy"
+            },
+            "dungeon": {
+                "name": "Tyrmä"
+            }
+        }
     }
-  },
-  "music": {
-    "title": "Musiikki",
-    "description": "Soundtrack, joka luo tunnelman Meteoriitin Yölle. Jokainen raita parantaa pikselitaide-seikkailua.",
-    "list": {
-      "twilight": {
-        "name": "Hämärä"
-      },
-      "tracy": {
-        "name": "Tracy"
-      },
-      "dungeon": {
-        "name": "Tyrmä"
-      }
-    }
-  }
 }
-
