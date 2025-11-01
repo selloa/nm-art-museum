@@ -1,0 +1,130 @@
+.animations {
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.animations-music-button {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px;
+  opacity: 0.6;
+  backdrop-filter: blur(4px);
+  position: relative;
+  z-index: 10;
+}
+
+.animations-music-button:hover {
+  opacity: 1;
+  background: rgba(78, 205, 196, 0.2);
+  border-color: var(--accent-secondary);
+  transform: scale(1.1);
+}
+
+.animations-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+  justify-items: stretch;
+}
+
+.animation-card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border);
+}
+
+.animation-card-large {
+  grid-column: span 3;
+}
+
+.animation-card-small {
+  grid-column: span 2;
+  max-width: 100%;
+}
+
+/* Justify last row items across the row - evenly distributed (3 items across 6 columns) */
+.animation-card-small:nth-child(3) {
+  grid-column: 1 / span 2;
+}
+
+.animation-card-small:nth-child(4) {
+  grid-column: 3 / span 2;
+}
+
+.animation-card-small:nth-child(5) {
+  grid-column: 5 / span 2;
+}
+
+.animation-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(78, 205, 196, 0.2);
+}
+
+.animation-image-container {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.gif-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--accent-secondary);
+  color: var(--bg-primary);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+.animation-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .animations-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .animation-card-large,
+  .animation-card-small {
+    grid-column: span 1;
+  }
+}
+
