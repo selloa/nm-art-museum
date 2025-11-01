@@ -44,6 +44,8 @@
   padding: 24px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid var(--border);
+  width: 100%;
+  max-width: 100%;
 }
 
 .animation-card-large {
@@ -68,6 +70,23 @@
   grid-column: 5 / span 2;
 }
 
+/* Medium-large screens - make all equal size for better balance */
+@media (max-width: 1200px) {
+  .animations-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  
+  .animation-card-large,
+  .animation-card-small {
+    grid-column: span 1 !important;
+  }
+  
+  .animation-image-container {
+    min-height: 160px;
+  }
+}
+
 .animation-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(78, 205, 196, 0.2);
@@ -84,6 +103,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 120px;
+  max-width: 100%;
 }
 
 .animation-image {
@@ -116,15 +137,81 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+/* Tablet and medium screens - all equal size */
+@media (max-width: 1024px) and (min-width: 769px) {
   .animations-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
   
   .animation-card-large,
   .animation-card-small {
-    grid-column: span 1;
+    grid-column: span 1 !important;
+  }
+  
+  .animation-card {
+    padding: 20px;
+  }
+  
+  .animation-image-container {
+    min-height: 180px;
+    aspect-ratio: 1;
+  }
+  
+  .animation-name {
+    font-size: 1.15rem;
+  }
+}
+
+/* Small tablets - all equal size */
+@media (max-width: 768px) and (min-width: 481px) {
+  .animations-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  
+  .animation-card-large,
+  .animation-card-small {
+    grid-column: span 1 !important;
+  }
+  
+  .animation-card {
+    padding: 18px;
+  }
+  
+  .animation-image-container {
+    min-height: 160px;
+    aspect-ratio: 1;
+  }
+  
+  .animation-name {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile - all equal size, larger min-height */
+@media (max-width: 480px) {
+  .animations-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .animation-card-large,
+  .animation-card-small {
+    grid-column: span 1 !important;
+  }
+  
+  .animation-card {
+    padding: 18px;
+  }
+  
+  .animation-image-container {
+    min-height: 220px;
+    aspect-ratio: 1;
+  }
+  
+  .animation-name {
+    font-size: 1.05rem;
   }
 }
 
