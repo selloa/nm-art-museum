@@ -44,7 +44,7 @@ function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p>Have you spotted a typo or strange translation? Good! Please get in contact and help translate the game.</p>
+        <p>{t('app.footer')}</p>
       </footer>
 
       {/* Back to Top Button */}
