@@ -1,153 +1,160 @@
 {
-    "app": {
-        "title": "Notte della Meteora - Demo d'Arte",
-        "backToTop": "Torna in alto"
+  "app": {
+    "title": "Notte della Meteora - Demo d'Arte",
+    "backToTop": "Torna in alto"
+  },
+  "hero": {
+    "title": "Notte della Meteora",
+    "subtitle": "Un Remake di Maniac Mansion dai Fan",
+    "description": "Benvenuti nel maniero degli Edison. 20 anni fa, una grande meteora si è schiantata nel cortile anteriore degli Edison. La meteora era in realtà la famigerata Meteora Viscosa Viola Assassina, il terrore della galassia! Usando il Dr. Fred come strumento, la meteora ha iniziato a rapire adolescenti per succhiare loro il cervello. Il rapimento più recente coinvolge la fidanzata di Dave, Sandy la cheerleader. Non essendo uno che prende le cose alla leggera, Dave arruola l'aiuto di amici e entra nel maniero per trovare Sandy.",
+    "descriptionSecondary": "Benvenuti artisti! Esplorate l'universo di pixel art che stiamo costruendo. Scorrete in basso per scoprire personaggi, cattivi, luoghi, animazioni e musica.",
+    "musicButton": {
+      "play": "Riproduci musica di sottofondo",
+      "stop": "Ferma musica di sottofondo"
     },
-    "hero": {
-        "title": "Notte della Meteora",
-        "subtitle": "Un Remake di Maniac Mansion dai Fan",
-        "description": "Benvenuti nel maniero degli Edison. 20 anni fa, una grande meteora si è schiantata nel cortile anteriore degli Edison. La meteora era in realtà la famigerata Meteora Viscosa Viola Assassina, il terrore della galassia! Usando il Dr. Fred come strumento, la meteora ha iniziato a rapire adolescenti per succhiare loro il cervello. Il rapimento più recente coinvolge la fidanzata di Dave, Sandy la cheerleader. Non essendo uno che prende le cose alla leggera, Dave arruola l'aiuto di amici e entra nel maniero per trovare Sandy.",
-        "descriptionSecondary": "Benvenuti artisti! Esplorate l'universo di pixel art che stiamo costruendo. Scorrete in basso per scoprire personaggi, cattivi, luoghi, animazioni e musica.",
-        "musicButton": {
-            "play": "Riproduci musica di sottofondo",
-            "stop": "Ferma musica di sottofondo"
-        },
-        "imageAlt": "Notte della Meteora - Arte Principale del Gioco"
-    },
-    "characters": {
-        "title": "Personaggi",
-        "description": "Incontrare il cast di Notte della Meteora. Ogni personaggio porta capacità e personalità uniche all'avventura.",
-        "list": {
-            "dave": {
-                "name": "Dave",
-                "description": "L'eroe, devi usare questo ragazzo. Nessuna abilità speciale, ma grande colonna sonora."
-            },
-            "bernard": {
-                "name": "Bernard",
-                "description": "Il geek residente. Può riparare la radio per chiamare la polizia delle meteore e riparare il telefono."
-            },
-            "syd": {
-                "name": "Syd",
-                "description": "Il musicista figo con occhiali da sole fantastici. Maestro del pianoforte."
-            },
-            "razor": {
-                "name": "Razor",
-                "description": "Il punk rocker. Ottimo pianista. Lo stesso di Syd in ogni aspetto tranne il genere."
-            },
-            "michael": {
-                "name": "Michael",
-                "description": "Il fotografo che può sviluppare pellicole. L'unico che può convincere Weird Ed ad aiutarti."
-            },
-            "wendy": {
-                "name": "Wendy",
-                "description": "La scrittrice che vuole essere una famosa romanziere. Può modificare brutti manoscritti con macchine da scrivere."
-            },
-            "jeff": {
-                "name": "Jeff",
-                "description": "Barboncino da spiaggia la cui unica ambizione è vivere in un furgone in riva al mare. Può riparare il telefono."
-            }
-        }
-    },
-    "villains": {
-        "title": "Cattivi",
-        "description": "Gli antagonisti di Notte della Meteora. Ogni cattivo presenta sfide uniche e progetti oscuri.",
-        "list": {
-            "dr-fred": {
-                "name": "Dr. Fred Edison",
-                "description": "Scienziato pazzo residente controllato dalla meteora. Non era un tipo così cattivo prima che la meteora prendesse il controllo."
-            },
-            "edna": {
-                "name": "Infermiera Edna Edison",
-                "description": "Una signora demente. L'unica Edison che NON si unirà MAI al tuo lato. Evitala a tutti i costi."
-            },
-            "weird-ed": {
-                "name": "Weird Ed Edison",
-                "description": "Il guru militare. L'unica persona sana nel maniero. Vuole solo sbarazzarsi della meteora e salvare suo padre."
-            },
-            "ted": {
-                "name": "Cugino Morto Ted Edison",
-                "description": "Tecnicamente mai interagito con lui dato che è morto, ma viene menzionato molto nel maniero."
-            },
-            "green-tentacle": {
-                "name": "Tentacolo Verde",
-                "description": "Troppo depresso per preoccuparsi degli intrusi. Può essere un alleato utile, ma maniaco-depressivo e potrebbe diventare violento rapidamente."
-            },
-            "purple-tentacle": {
-                "name": "Tentacolo Viola",
-                "description": "Guarda la porta del laboratorio interno del Dr. Fred. Quasi tutte le abilità speciali dei ragazzi sono orientate a superare questo tizio."
-            }
-        }
-    },
-    "locations": {
-        "title": "Luoghi",
-        "description": "Esplorare gli ambienti di pixel art dettagliati. Ogni luogo è realizzato con cura per creare un'avventura immersiva.",
-        "musicButton": {
-            "play": "Riproduci musica di sottofondo",
-            "stop": "Ferma musica di sottofondo"
-        },
-        "placeholder": {
-            "label": "Sfondo",
-            "dimensions": "640x400"
-        },
-        "list": {
-            "loc1": {
-                "name": "Entrata del Maniero"
-            },
-            "loc2": {
-                "name": "Laboratorio"
-            },
-            "loc3": {
-                "name": "Seminterrato"
-            },
-            "loc4": {
-                "name": "Solaio"
-            },
-            "loc5": {
-                "name": "Biblioteca"
-            },
-            "loc6": {
-                "name": "Cucina"
-            }
-        }
-    },
-    "animations": {
-        "title": "Animazioni",
-        "description": "GIF animate perfette al pixel che mostrano i momenti dinamici del gioco e i movimenti dei personaggi.",
-        "musicButton": {
-            "play": "Riproduci musica di sottofondo",
-            "stop": "Ferma musica di sottofondo"
-        },
-        "list": {
-            "attack": {
-                "name": "Animazione di Attacco"
-            },
-            "custom": {
-                "name": "Animazione di Personaggio Personalizzata"
-            },
-            "host": {
-                "name": "Animazione di Nuovo Personaggio"
-            },
-            "sleep": {
-                "name": "Animazione di Cutscene"
-            },
-            "walk": {
-                "name": "Ciclo di Camminata"
-            }
-        }
-    },
-    "music": {
-        "title": "Musica",
-        "description": "La colonna sonora che stabilisce l'umore per Notte della Meteora. Ogni brano migliora l'avventura di pixel art.",
-        "list": {
-            "twilight": {
-                "name": "Crepuscolo"
-            },
-            "tracy": {
-                "name": "Tracy"
-            },
-            "dungeon": {
-                "name": "Dungeon"
-            }
-        }
+    "imageAlt": "Notte della Meteora - Arte Principale del Gioco"
+  },
+  "characters": {
+    "title": "Personaggi",
+    "description": "Incontrare il cast di Notte della Meteora. Ogni personaggio porta capacità e personalità uniche all'avventura.",
+    "list": {
+      "dave": {
+        "name": "Dave",
+        "description": "L'eroe, devi usare questo ragazzo. Nessuna abilità speciale, ma grande colonna sonora."
+      },
+      "bernard": {
+        "name": "Bernard",
+        "description": "Il geek residente. Può riparare la radio per chiamare la polizia delle meteore e riparare il telefono."
+      },
+      "syd": {
+        "name": "Syd",
+        "description": "Il musicista figo con occhiali da sole fantastici. Maestro del pianoforte."
+      },
+      "razor": {
+        "name": "Razor",
+        "description": "Il punk rocker. Ottimo pianista. Lo stesso di Syd in ogni aspetto tranne il genere."
+      },
+      "michael": {
+        "name": "Michael",
+        "description": "Il fotografo che può sviluppare pellicole. L'unico che può convincere Weird Ed ad aiutarti."
+      },
+      "wendy": {
+        "name": "Wendy",
+        "description": "La scrittrice che vuole essere una famosa romanziere. Può modificare brutti manoscritti con macchine da scrivere."
+      },
+      "jeff": {
+        "name": "Jeff",
+        "description": "Barboncino da spiaggia la cui unica ambizione è vivere in un furgone in riva al mare. Può riparare il telefono."
+      }
     }
+  },
+  "villains": {
+    "title": "Cattivi",
+    "description": "Gli antagonisti di Notte della Meteora. Ogni cattivo presenta sfide uniche e progetti oscuri.",
+    "list": {
+      "dr-fred": {
+        "name": "Dr. Fred Edison",
+        "description": "Scienziato pazzo residente controllato dalla meteora. Non era un tipo così cattivo prima che la meteora prendesse il controllo."
+      },
+      "edna": {
+        "name": "Infermiera Edna Edison",
+        "description": "Una signora demente. L'unica Edison che NON si unirà MAI al tuo lato. Evitala a tutti i costi."
+      },
+      "weird-ed": {
+        "name": "Weird Ed Edison",
+        "description": "Il guru militare. L'unica persona sana nel maniero. Vuole solo sbarazzarsi della meteora e salvare suo padre."
+      },
+      "ted": {
+        "name": "Cugino Morto Ted Edison",
+        "description": "Tecnicamente mai interagito con lui dato che è morto, ma viene menzionato molto nel maniero."
+      },
+      "green-tentacle": {
+        "name": "Tentacolo Verde",
+        "description": "Troppo depresso per preoccuparsi degli intrusi. Può essere un alleato utile, ma maniaco-depressivo e potrebbe diventare violento rapidamente."
+      },
+      "purple-tentacle": {
+        "name": "Tentacolo Viola",
+        "description": "Guarda la porta del laboratorio interno del Dr. Fred. Quasi tutte le abilità speciali dei ragazzi sono orientate a superare questo tizio."
+      }
+    }
+  },
+  "locations": {
+    "title": "Luoghi",
+    "description": "Esplorare gli ambienti di pixel art dettagliati. Ogni luogo è realizzato con cura per creare un'avventura immersiva.",
+    "musicButton": {
+      "play": "Riproduci musica di sottofondo",
+      "stop": "Ferma musica di sottofondo"
+    },
+    "placeholder": {
+      "label": "Sfondo",
+      "dimensions": "640x400"
+    },
+    "list": {
+      "loc1": {
+        "name": "Entrata del Maniero"
+      },
+      "loc2": {
+        "name": "Laboratorio"
+      },
+      "loc3": {
+        "name": "Seminterrato"
+      },
+      "loc4": {
+        "name": "Solaio"
+      },
+      "loc5": {
+        "name": "Biblioteca"
+      },
+      "loc6": {
+        "name": "Cucina"
+      }
+    }
+  },
+  "animations": {
+    "title": "Animazioni",
+    "description": "GIF animate perfette al pixel che mostrano i momenti dinamici del gioco e i movimenti dei personaggi.",
+    "musicButton": {
+      "play": "Riproduci musica di sottofondo",
+      "stop": "Ferma musica di sottofondo"
+    },
+    "list": {
+      "attack": {
+        "name": "Animazione di Attacco"
+      },
+      "custom": {
+        "name": "Animazione di Personaggio Personalizzata"
+      },
+      "host": {
+        "name": "Animazione di Nuovo Personaggio"
+      },
+      "sleep": {
+        "name": "Animazione di Cutscene"
+      },
+      "walk": {
+        "name": "Ciclo di Camminata"
+      }
+    }
+  },
+  "music": {
+    "title": "Musica",
+    "description": "La colonna sonora che stabilisce l'umore per Notte della Meteora. Ogni brano migliora l'avventura di pixel art.",
+    "list": {
+      "twilight": {
+        "name": "Crepuscolo"
+      },
+      "tracy": {
+        "name": "Tracy"
+      },
+      "dungeon": {
+        "name": "Dungeon"
+      }
+    }
+  }
 }
+
+
+
+
+
+
+

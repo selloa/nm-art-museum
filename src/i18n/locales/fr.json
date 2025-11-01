@@ -1,153 +1,160 @@
 {
-    "app": {
-        "title": "Nuit de la Météorite - Démo d'Art",
-        "backToTop": "Retour en haut"
+  "app": {
+    "title": "Nuit de la Météorite - Démo d'Art",
+    "backToTop": "Retour en haut"
+  },
+  "hero": {
+    "title": "Nuit de la Météorite",
+    "subtitle": "Un Remake de Maniac Mansion par des Fans",
+    "description": "Bienvenue dans le manoir des Edison. Il y a 20 ans, une grosse météorite s'est écrasée dans le jardin avant des Edison. La météorite était en fait la tristement célèbre Météorite Viscouse Violette Meurtrière, la terreur de la galaxie ! Utilisant le Dr. Fred comme outil, la météorite a commencé à enlever des adolescents pour leur sucer le cerveau. Le dernier enlèvement concerne la petite amie de Dave, Sandy la pom-pom girl. N'étant pas du genre à prendre les choses à la légère, Dave recrute l'aide d'amis et entre dans le manoir pour trouver Sandy.",
+    "descriptionSecondary": "Bienvenue aux artistes ! Explorez l'univers de pixel art que nous construisons. Faites défiler pour découvrir les personnages, les méchants, les lieux, les animations et la musique.",
+    "musicButton": {
+      "play": "Lire la musique de fond",
+      "stop": "Arrêter la musique de fond"
     },
-    "hero": {
-        "title": "Nuit de la Météorite",
-        "subtitle": "Un Remake de Maniac Mansion par des Fans",
-        "description": "Bienvenue dans le manoir des Edison. Il y a 20 ans, une grosse météorite s'est écrasée dans le jardin avant des Edison. La météorite était en fait la tristement célèbre Météorite Viscouse Violette Meurtrière, la terreur de la galaxie ! Utilisant le Dr. Fred comme outil, la météorite a commencé à enlever des adolescents pour leur sucer le cerveau. Le dernier enlèvement concerne la petite amie de Dave, Sandy la pom-pom girl. N'étant pas du genre à prendre les choses à la légère, Dave recrute l'aide d'amis et entre dans le manoir pour trouver Sandy.",
-        "descriptionSecondary": "Bienvenue aux artistes ! Explorez l'univers de pixel art que nous construisons. Faites défiler pour découvrir les personnages, les méchants, les lieux, les animations et la musique.",
-        "musicButton": {
-            "play": "Lire la musique de fond",
-            "stop": "Arrêter la musique de fond"
-        },
-        "imageAlt": "Nuit de la Météorite - Art Principal du Jeu"
-    },
-    "characters": {
-        "title": "Personnages",
-        "description": "Rencontrez le casting de Nuit de la Météorite. Chaque personnage apporte des capacités et une personnalité uniques à l'aventure.",
-        "list": {
-            "dave": {
-                "name": "Dave",
-                "description": "Le héros, vous devez utiliser ce gars. Aucune compétence spéciale, mais une superbe bande sonore."
-            },
-            "bernard": {
-                "name": "Bernard",
-                "description": "Le geek résident. Peut réparer la radio pour appeler la police météorique et réparer le téléphone."
-            },
-            "syd": {
-                "name": "Syd",
-                "description": "Le musicien cool avec des lunettes de soleil géniales. Maître du piano."
-            },
-            "razor": {
-                "name": "Razor",
-                "description": "Le rockeur punk. Excellent pianiste. Identique à Syd en tout point sauf le genre."
-            },
-            "michael": {
-                "name": "Michael",
-                "description": "Le photographe qui peut développer des pellicules. Le seul qui puisse obtenir l'aide de Weird Ed."
-            },
-            "wendy": {
-                "name": "Wendy",
-                "description": "L'écrivain qui veut être un romancier célèbre. Peut éditer de mauvais manuscrits avec des machines à écrire."
-            },
-            "jeff": {
-                "name": "Jeff",
-                "description": "Clochard de plage dont la seule ambition est de vivre dans un van au bord de la mer. Peut réparer le téléphone."
-            }
-        }
-    },
-    "villains": {
-        "title": "Méchants",
-        "description": "Les antagonistes de Nuit de la Météorite. Chaque méchant présente des défis uniques et des desseins sombres.",
-        "list": {
-            "dr-fred": {
-                "name": "Dr. Fred Edison",
-                "description": "Scientifique fou résident contrôlé par la météorite. N'était pas un si mauvais gars avant que la météorite ne prenne le contrôle."
-            },
-            "edna": {
-                "name": "Infirmière Edna Edison",
-                "description": "Une dame démenciaire. La seule Edison qui ne rejoindra JAMAIS votre côté. Évitez-la à tout prix."
-            },
-            "weird-ed": {
-                "name": "Weird Ed Edison",
-                "description": "Le gourou militaire. La seule personne saine du manoir. Veut juste se débarrasser de la météorite et sauver son père."
-            },
-            "ted": {
-                "name": "Cousin Mort Ted Edison",
-                "description": "Techniquement jamais interagi avec puisqu'il est mort, mais mentionné beaucoup tout au long du manoir."
-            },
-            "green-tentacle": {
-                "name": "Tentacule Vert",
-                "description": "Trop déprimé pour se soucier des intrus. Peut être un allié utile, mais maniaco-dépressif et pourrait devenir violent rapidement."
-            },
-            "purple-tentacle": {
-                "name": "Tentacule Violet",
-                "description": "Garde la porte du laboratoire intérieur du Dr. Fred. Presque toutes les compétences spéciales des enfants sont orientées vers le fait de passer devant ce gars."
-            }
-        }
-    },
-    "locations": {
-        "title": "Lieux",
-        "description": "Explorez les environnements d'art pixel détaillés. Chaque lieu est conçu avec soin pour créer une aventure immersive.",
-        "musicButton": {
-            "play": "Lire la musique de fond",
-            "stop": "Arrêter la musique de fond"
-        },
-        "placeholder": {
-            "label": "Arrière-plan",
-            "dimensions": "640x400"
-        },
-        "list": {
-            "loc1": {
-                "name": "Entrée du Manoir"
-            },
-            "loc2": {
-                "name": "Laboratoire"
-            },
-            "loc3": {
-                "name": "Sous-sol"
-            },
-            "loc4": {
-                "name": "Grenier"
-            },
-            "loc5": {
-                "name": "Bibliothèque"
-            },
-            "loc6": {
-                "name": "Cuisine"
-            }
-        }
-    },
-    "animations": {
-        "title": "Animations",
-        "description": "GIFs animés parfaits au pixel près présentant les moments dynamiques du jeu et les mouvements des personnages.",
-        "musicButton": {
-            "play": "Lire la musique de fond",
-            "stop": "Arrêter la musique de fond"
-        },
-        "list": {
-            "attack": {
-                "name": "Animation d'Attaque"
-            },
-            "custom": {
-                "name": "Animation de Personnage Personnalisée"
-            },
-            "host": {
-                "name": "Animation de Nouveau Personnage"
-            },
-            "sleep": {
-                "name": "Animation de Scène"
-            },
-            "walk": {
-                "name": "Cycle de Marche"
-            }
-        }
-    },
-    "music": {
-        "title": "Musique",
-        "description": "La bande sonore qui établit l'ambiance pour Nuit de la Météorite. Chaque morceau améliore l'aventure d'art pixel.",
-        "list": {
-            "twilight": {
-                "name": "Crépuscule"
-            },
-            "tracy": {
-                "name": "Tracy"
-            },
-            "dungeon": {
-                "name": "Donjon"
-            }
-        }
+    "imageAlt": "Nuit de la Météorite - Art Principal du Jeu"
+  },
+  "characters": {
+    "title": "Personnages",
+    "description": "Rencontrez le casting de Nuit de la Météorite. Chaque personnage apporte des capacités et une personnalité uniques à l'aventure.",
+    "list": {
+      "dave": {
+        "name": "Dave",
+        "description": "Le héros, vous devez utiliser ce gars. Aucune compétence spéciale, mais une superbe bande sonore."
+      },
+      "bernard": {
+        "name": "Bernard",
+        "description": "Le geek résident. Peut réparer la radio pour appeler la police météorique et réparer le téléphone."
+      },
+      "syd": {
+        "name": "Syd",
+        "description": "Le musicien cool avec des lunettes de soleil géniales. Maître du piano."
+      },
+      "razor": {
+        "name": "Razor",
+        "description": "Le rockeur punk. Excellent pianiste. Identique à Syd en tout point sauf le genre."
+      },
+      "michael": {
+        "name": "Michael",
+        "description": "Le photographe qui peut développer des pellicules. Le seul qui puisse obtenir l'aide de Weird Ed."
+      },
+      "wendy": {
+        "name": "Wendy",
+        "description": "L'écrivain qui veut être un romancier célèbre. Peut éditer de mauvais manuscrits avec des machines à écrire."
+      },
+      "jeff": {
+        "name": "Jeff",
+        "description": "Clochard de plage dont la seule ambition est de vivre dans un van au bord de la mer. Peut réparer le téléphone."
+      }
     }
+  },
+  "villains": {
+    "title": "Méchants",
+    "description": "Les antagonistes de Nuit de la Météorite. Chaque méchant présente des défis uniques et des desseins sombres.",
+    "list": {
+      "dr-fred": {
+        "name": "Dr. Fred Edison",
+        "description": "Scientifique fou résident contrôlé par la météorite. N'était pas un si mauvais gars avant que la météorite ne prenne le contrôle."
+      },
+      "edna": {
+        "name": "Infirmière Edna Edison",
+        "description": "Une dame démenciaire. La seule Edison qui ne rejoindra JAMAIS votre côté. Évitez-la à tout prix."
+      },
+      "weird-ed": {
+        "name": "Weird Ed Edison",
+        "description": "Le gourou militaire. La seule personne saine du manoir. Veut juste se débarrasser de la météorite et sauver son père."
+      },
+      "ted": {
+        "name": "Cousin Mort Ted Edison",
+        "description": "Techniquement jamais interagi avec puisqu'il est mort, mais mentionné beaucoup tout au long du manoir."
+      },
+      "green-tentacle": {
+        "name": "Tentacule Vert",
+        "description": "Trop déprimé pour se soucier des intrus. Peut être un allié utile, mais maniaco-dépressif et pourrait devenir violent rapidement."
+      },
+      "purple-tentacle": {
+        "name": "Tentacule Violet",
+        "description": "Garde la porte du laboratoire intérieur du Dr. Fred. Presque toutes les compétences spéciales des enfants sont orientées vers le fait de passer devant ce gars."
+      }
+    }
+  },
+  "locations": {
+    "title": "Lieux",
+    "description": "Explorez les environnements d'art pixel détaillés. Chaque lieu est conçu avec soin pour créer une aventure immersive.",
+    "musicButton": {
+      "play": "Lire la musique de fond",
+      "stop": "Arrêter la musique de fond"
+    },
+    "placeholder": {
+      "label": "Arrière-plan",
+      "dimensions": "640x400"
+    },
+    "list": {
+      "loc1": {
+        "name": "Entrée du Manoir"
+      },
+      "loc2": {
+        "name": "Laboratoire"
+      },
+      "loc3": {
+        "name": "Sous-sol"
+      },
+      "loc4": {
+        "name": "Grenier"
+      },
+      "loc5": {
+        "name": "Bibliothèque"
+      },
+      "loc6": {
+        "name": "Cuisine"
+      }
+    }
+  },
+  "animations": {
+    "title": "Animations",
+    "description": "GIFs animés parfaits au pixel près présentant les moments dynamiques du jeu et les mouvements des personnages.",
+    "musicButton": {
+      "play": "Lire la musique de fond",
+      "stop": "Arrêter la musique de fond"
+    },
+    "list": {
+      "attack": {
+        "name": "Animation d'Attaque"
+      },
+      "custom": {
+        "name": "Animation de Personnage Personnalisée"
+      },
+      "host": {
+        "name": "Animation de Nouveau Personnage"
+      },
+      "sleep": {
+        "name": "Animation de Scène"
+      },
+      "walk": {
+        "name": "Cycle de Marche"
+      }
+    }
+  },
+  "music": {
+    "title": "Musique",
+    "description": "La bande sonore qui établit l'ambiance pour Nuit de la Météorite. Chaque morceau améliore l'aventure d'art pixel.",
+    "list": {
+      "twilight": {
+        "name": "Crépuscule"
+      },
+      "tracy": {
+        "name": "Tracy"
+      },
+      "dungeon": {
+        "name": "Donjon"
+      }
+    }
+  }
 }
+
+
+
+
+
+
+
