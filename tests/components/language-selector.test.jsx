@@ -26,7 +26,7 @@ describe('LanguageSelector Component', () => {
     expect(select).toBeInTheDocument()
   })
 
-  it('should have all 5 languages as options', () => {
+  it('should have all 8 languages as options', () => {
     renderWithI18n()
     const select = screen.getByRole('combobox')
     
@@ -36,6 +36,9 @@ describe('LanguageSelector Component', () => {
     expect(select.querySelector('option[value="it"]')).toBeInTheDocument()
     expect(select.querySelector('option[value="de"]')).toBeInTheDocument()
     expect(select.querySelector('option[value="es"]')).toBeInTheDocument()
+    expect(select.querySelector('option[value="sv"]')).toBeInTheDocument()
+    expect(select.querySelector('option[value="fi"]')).toBeInTheDocument()
+    expect(select.querySelector('option[value="no"]')).toBeInTheDocument()
   })
 
   it('should change language when selection changes', async () => {

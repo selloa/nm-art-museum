@@ -4,6 +4,9 @@ import frTranslations from '../../src/i18n/locales/fr.json'
 import itTranslations from '../../src/i18n/locales/it.json'
 import deTranslations from '../../src/i18n/locales/de.json'
 import esTranslations from '../../src/i18n/locales/es.json'
+import svTranslations from '../../src/i18n/locales/sv.json'
+import fiTranslations from '../../src/i18n/locales/fi.json'
+import noTranslations from '../../src/i18n/locales/no.json'
 import { getAllKeys, getNestedValue } from '../utils/translation-helpers'
 
 describe('Translation Type Safety', () => {
@@ -13,6 +16,9 @@ describe('Translation Type Safety', () => {
     it: itTranslations,
     de: deTranslations,
     es: esTranslations,
+    sv: svTranslations,
+    fi: fiTranslations,
+    no: noTranslations,
   }
   
   Object.keys(languages).forEach((langCode) => {

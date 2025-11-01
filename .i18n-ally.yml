@@ -23,6 +23,9 @@ enabledLanguages:
   - it
   - de
   - es
+  - sv
+  - fi
+  - no
 
 # Framework configuration
 frameworks:

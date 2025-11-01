@@ -5,6 +5,9 @@ import frTranslations from './locales/fr.json'
 import itTranslations from './locales/it.json'
 import deTranslations from './locales/de.json'
 import esTranslations from './locales/es.json'
+import svTranslations from './locales/sv.json'
+import fiTranslations from './locales/fi.json'
+import noTranslations from './locales/no.json'
 
 const resources = {
   en: { translation: enTranslations },
@@ -12,6 +15,9 @@ const resources = {
   it: { translation: itTranslations },
   de: { translation: deTranslations },
   es: { translation: esTranslations },
+  sv: { translation: svTranslations },
+  fi: { translation: fiTranslations },
+  no: { translation: noTranslations },
 }
 
 // Get saved language from localStorage or default to English

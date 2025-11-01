@@ -8,6 +8,9 @@ const languages = [
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+  { code: 'fi', name: 'Suomi', flag: '🇫🇮' },
+  { code: 'no', name: 'Norsk', flag: '🇳🇴' },
 ]
 
 function LanguageSelector() {

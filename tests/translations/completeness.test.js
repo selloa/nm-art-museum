@@ -4,6 +4,9 @@ import frTranslations from '../../src/i18n/locales/fr.json'
 import itTranslations from '../../src/i18n/locales/it.json'
 import deTranslations from '../../src/i18n/locales/de.json'
 import esTranslations from '../../src/i18n/locales/es.json'
+import svTranslations from '../../src/i18n/locales/sv.json'
+import fiTranslations from '../../src/i18n/locales/fi.json'
+import noTranslations from '../../src/i18n/locales/no.json'
 import { getAllKeys, findMissingKeys, findExtraKeys } from '../utils/translation-helpers'
 
 describe('Translation Completeness', () => {
@@ -13,6 +16,9 @@ describe('Translation Completeness', () => {
     it: itTranslations,
     de: deTranslations,
     es: esTranslations,
+    sv: svTranslations,
+    fi: fiTranslations,
+    no: noTranslations,
   }
   
   const englishKeys = getAllKeys(enTranslations)
@@ -23,6 +29,9 @@ describe('Translation Completeness', () => {
     expect(itTranslations).toBeDefined()
     expect(deTranslations).toBeDefined()
     expect(esTranslations).toBeDefined()
+    expect(svTranslations).toBeDefined()
+    expect(fiTranslations).toBeDefined()
+    expect(noTranslations).toBeDefined()
   })
   
   it('should have English as the base language with keys', () => {
@@ -30,7 +39,7 @@ describe('Translation Completeness', () => {
   })
   
   // Test each language against English
-  const languageCodes = ['fr', 'it', 'de', 'es']
+  const languageCodes = ['fr', 'it', 'de', 'es', 'sv', 'fi', 'no']
   
   languageCodes.forEach((langCode) => {
     describe(`${langCode.toUpperCase()} translations`, () => {
