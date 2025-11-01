@@ -1,12 +1,12 @@
 {
     "app": {
-        "title": "",
-        "backToTop": "",
-        "footer": ""
+        "title": "ADANGME",
+        "backToTop": "ADANGMEADANGME",
+        "footer": "ADANGMEADANGME"
     },
     "hero": {
-        "title": "",
-        "subtitle": "",
+        "title": "ADANGME",
+        "subtitle": "ADANGME",
         "description": "",
         "descriptionSecondary": "",
         "musicButton": {
