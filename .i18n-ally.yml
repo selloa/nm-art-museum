@@ -1,0 +1,53 @@
+# i18n-ally configuration
+# https://lokalise.com/blog/i18n-ally/
+
+# Where are the translation files located?
+localesPaths:
+  - src/i18n/locales
+
+# What file format are you using?
+pathMatcher: '{locale}.json'
+
+# What namespace are you using? (set false if you don't use namespaces)
+namespace: false
+defaultNamespace: translation
+
+# What is the source language?
+sourceLanguage: en
+
+# What languages are you supporting?
+displayLanguage: en
+enabledLanguages:
+  - en
+  - fr
+  - it
+  - de
+  - es
+
+# Framework configuration
+frameworks:
+  - react
+  - i18next
+
+# Key style
+keystyle: nested
+sortKeys: true
+
+# Editor features
+annotations: true
+annotationInPlace: true
+annotationMaxLength: 50
+
+# Extract configuration
+extract:
+  keygenStyle: camelCase
+  keyPrefix: ''
+
+# Refactor templates
+refactor:
+  templates:
+    - source: '{key}'
+      target: "t('{key}')"
+
+
+
