@@ -1,154 +1,153 @@
 {
-  "app": {
-    "title": "Natten av Meteoriten - Konstdemo",
-    "backToTop": "Tillbaka till toppen"
-  },
-  "hero": {
-    "title": "Natten av Meteoriten",
-    "subtitle": "En Maniac Mansion Fan Remake",
-    "description": "Välkommen till Edisonfamiljens herrgård. För 20 år sedan kraschade en stor meteorit i Edisonfamiljens framgård. Meteoriten var i själva verket den ökända Mördande Lila Slemmiga Meteoriten, galaxens skräck! Med Dr. Fred som verktyg har meteoriten börjat kidnappa tonåringar för att suga ut deras hjärnor. Det senaste bortrövandet involverar Daves flickvän Sandy, cheerleadern. Inte den som tar saker lättvindigt, Dave rekryterar hjälp av vänner och går in i herrgården för att hitta Sandy.",
-    "descriptionSecondary": "Välkommen konstnärer! Utforska pixelart-universumet vi bygger. Scrolla ner för att upptäcka karaktärer, skurkar, platser, animationer och musik.",
-    "musicButton": {
-      "play": "Spela bakgrundsmusik",
-      "stop": "Stoppa bakgrundsmusik"
+    "app": {
+        "title": "Natten av Meteoriten - Konstdemo",
+        "backToTop": "Tillbaka till toppen"
     },
-    "imageAlt": "Natten av Meteoriten - Huvudspelskonst"
-  },
-  "characters": {
-    "title": "Karaktärer",
-    "description": "Träffa rollistan i Natten av Meteoriten. Varje karaktär ger unika förmågor och personlighet till äventyret.",
-    "list": {
-      "dave": {
-        "name": "Dave",
-        "description": "Hjälten, du måste använda den här killen. Inga speciella färdigheter, men bra soundtrack."
-      },
-      "bernard": {
-        "name": "Bernard",
-        "description": "Den boende nörden. Kan fixa radion för att ringa meteoritpolisen och reparera telefonen."
-      },
-      "syd": {
-        "name": "Syd",
-        "description": "Den coola musiken med awesome solglasögon. Mästare på pianot."
-      },
-      "razor": {
-        "name": "Razor",
-        "description": "Punkrockaren. Bra pianist. Samma som Syd i varje avseende utom kön."
-      },
-      "michael": {
-        "name": "Michael",
-        "description": "Fotografen som kan framkalla film. Den enda som kan få Weird Ed att hjälpa dig."
-      },
-      "wendy": {
-        "name": "Wendy",
-        "description": "Författaren som vill bli en berömd romanförfattare. Kan redigera dåliga manuskript med skrivmaskiner."
-      },
-      "jeff": {
-        "name": "Jeff",
-        "description": "Strandluffare vars enda ambition är att bo i en skåpbil vid havet. Kan fixa telefonen."
-      }
-    }
-  },
-  "villains": {
-    "title": "Skurkar",
-    "description": "Antagonisterna i Natten av Meteoriten. Varje skurk presenterar unika utmaningar och mörka planer.",
-    "list": {
-      "dr-fred": {
-        "name": "Dr. Fred Edison",
-        "description": "Boende galen vetenskapsman kontrollerad av meteoriten. Var inte en så dålig kille innan meteoriten tog över."
-      },
-      "edna": {
-        "name": "Sjuksköterska Edna Edison",
-        "description": "En dement dam. Den enda Edison som ALDRIG kommer att gå över till din sida. Undvik henne till varje pris."
-      },
-      "weird-ed": {
-        "name": "Weird Ed Edison",
-        "description": "Den militära gurun. Den enda sansade personen i herrgården. Vill bara bli av med meteoriten och rädda sin far."
-      },
-      "ted": {
-        "name": "Död Kusin Ted Edison",
-        "description": "Tekniskt sett aldrig interagerad med eftersom han är död, men nämns mycket genom hela herrgården."
-      },
-      "green-tentacle": {
-        "name": "Grön Tentakel",
-        "description": "För deprimerad för att bry sig om inkräktare. Kan vara en användbar allierad, men manisk-depressiv och kan snabbt bli våldsam."
-      },
-      "purple-tentacle": {
-        "name": "Lila Tentakel",
-        "description": "Vaktar dörren till Dr. Freds inre laboratorium. Nästan alla av barnens speciella färdigheter är inriktade på att komma förbi den här killen."
-      }
-    }
-  },
-  "locations": {
-    "title": "Platser",
-    "description": "Utforska de detaljerade pixelart-miljöerna. Varje plats är skapad med omsorg för att skapa en uppslukande upplevelse.",
-    "musicButton": {
-      "play": "Spela bakgrundsmusik",
-      "stop": "Stoppa bakgrundsmusik"
+    "hero": {
+        "title": "Natten av Meteoriten",
+        "subtitle": "En Maniac Mansion Fan Remake",
+        "description": "Välkommen till Edisonfamiljens herrgård. För 20 år sedan kraschade en stor meteorit i Edisonfamiljens framgård. Meteoriten var i själva verket den ökända Mördande Lila Slemmiga Meteoriten, galaxens skräck! Med Dr. Fred som verktyg har meteoriten börjat kidnappa tonåringar för att suga ut deras hjärnor. Det senaste bortrövandet involverar Daves flickvän Sandy, cheerleadern. Inte den som tar saker lättvindigt, Dave rekryterar hjälp av vänner och går in i herrgården för att hitta Sandy.",
+        "descriptionSecondary": "Välkommen konstnärer! Utforska pixelart-universumet vi bygger. Scrolla ner för att upptäcka karaktärer, skurkar, platser, animationer och musik.",
+        "musicButton": {
+            "play": "Spela bakgrundsmusik",
+            "stop": "Stoppa bakgrundsmusik"
+        },
+        "imageAlt": "Natten av Meteoriten - Huvudspelskonst"
     },
-    "placeholder": {
-      "label": "Bakgrund",
-      "dimensions": "640x400"
+    "characters": {
+        "title": "Karaktärer",
+        "description": "Träffa rollistan i Natten av Meteoriten. Varje karaktär ger unika förmågor och personlighet till äventyret.",
+        "list": {
+            "dave": {
+                "name": "Dave",
+                "description": "Hjälten, du måste använda den här killen. Inga speciella färdigheter, men bra soundtrack."
+            },
+            "bernard": {
+                "name": "Bernard",
+                "description": "Den boende nörden. Kan fixa radion för att ringa meteoritpolisen och reparera telefonen."
+            },
+            "syd": {
+                "name": "Syd",
+                "description": "Den coola musiken med awesome solglasögon. Mästare på pianot."
+            },
+            "razor": {
+                "name": "Razor",
+                "description": "Punkrockaren. Bra pianist. Samma som Syd i varje avseende utom kön."
+            },
+            "michael": {
+                "name": "Michael",
+                "description": "Fotografen som kan framkalla film. Den enda som kan få Weird Ed att hjälpa dig."
+            },
+            "wendy": {
+                "name": "Wendy",
+                "description": "Författaren som vill bli en berömd romanförfattare. Kan redigera dåliga manuskript med skrivmaskiner."
+            },
+            "jeff": {
+                "name": "Jeff",
+                "description": "Strandluffare vars enda ambition är att bo i en skåpbil vid havet. Kan fixa telefonen."
+            }
+        }
     },
-    "list": {
-      "loc1": {
-        "name": "Herrgårdsentré"
-      },
-      "loc2": {
-        "name": "Laboratorium"
-      },
-      "loc3": {
-        "name": "Källare"
-      },
-      "loc4": {
-        "name": "Vind"
-      },
-      "loc5": {
-        "name": "Bibliotek"
-      },
-      "loc6": {
-        "name": "Kök"
-      }
-    }
-  },
-  "animations": {
-    "title": "Animationer",
-    "description": "Pixel-perfekta animerade GIFs som visar spelets dynamiska ögonblick och karaktärsrörelser.",
-    "musicButton": {
-      "play": "Spela bakgrundsmusik",
-      "stop": "Stoppa bakgrundsmusik"
+    "villains": {
+        "title": "Skurkar",
+        "description": "Antagonisterna i Natten av Meteoriten. Varje skurk presenterar unika utmaningar och mörka planer.",
+        "list": {
+            "dr-fred": {
+                "name": "Dr. Fred Edison",
+                "description": "Boende galen vetenskapsman kontrollerad av meteoriten. Var inte en så dålig kille innan meteoriten tog över."
+            },
+            "edna": {
+                "name": "Sjuksköterska Edna Edison",
+                "description": "En dement dam. Den enda Edison som ALDRIG kommer att gå över till din sida. Undvik henne till varje pris."
+            },
+            "weird-ed": {
+                "name": "Weird Ed Edison",
+                "description": "Den militära gurun. Den enda sansade personen i herrgården. Vill bara bli av med meteoriten och rädda sin far."
+            },
+            "ted": {
+                "name": "Död Kusin Ted Edison",
+                "description": "Tekniskt sett aldrig interagerad med eftersom han är död, men nämns mycket genom hela herrgården."
+            },
+            "green-tentacle": {
+                "name": "Grön Tentakel",
+                "description": "För deprimerad för att bry sig om inkräktare. Kan vara en användbar allierad, men manisk-depressiv och kan snabbt bli våldsam."
+            },
+            "purple-tentacle": {
+                "name": "Lila Tentakel",
+                "description": "Vaktar dörren till Dr. Freds inre laboratorium. Nästan alla av barnens speciella färdigheter är inriktade på att komma förbi den här killen."
+            }
+        }
     },
-    "list": {
-      "attack": {
-        "name": "Attackanimation"
-      },
-      "custom": {
-        "name": "Anpassad Karaktärsanimation"
-      },
-      "host": {
-        "name": "Ny Karaktärsanimation"
-      },
-      "sleep": {
-        "name": "Cutscene-animation"
-      },
-      "walk": {
-        "name": "Gångcykel"
-      }
+    "locations": {
+        "title": "Platser",
+        "description": "Utforska de detaljerade pixelart-miljöerna. Varje plats är skapad med omsorg för att skapa en uppslukande upplevelse.",
+        "musicButton": {
+            "play": "Spela bakgrundsmusik",
+            "stop": "Stoppa bakgrundsmusik"
+        },
+        "placeholder": {
+            "label": "Bakgrund",
+            "dimensions": "640x400"
+        },
+        "list": {
+            "loc1": {
+                "name": "Herrgårdsentré"
+            },
+            "loc2": {
+                "name": "Laboratorium"
+            },
+            "loc3": {
+                "name": "Källare"
+            },
+            "loc4": {
+                "name": "Vind"
+            },
+            "loc5": {
+                "name": "Bibliotek"
+            },
+            "loc6": {
+                "name": "Kök"
+            }
+        }
+    },
+    "animations": {
+        "title": "Animationer",
+        "description": "Pixel-perfekta animerade GIFs som visar spelets dynamiska ögonblick och karaktärsrörelser.",
+        "musicButton": {
+            "play": "Spela bakgrundsmusik",
+            "stop": "Stoppa bakgrundsmusik"
+        },
+        "list": {
+            "attack": {
+                "name": "Attackanimation"
+            },
+            "custom": {
+                "name": "Anpassad Karaktärsanimation"
+            },
+            "host": {
+                "name": "Ny Karaktärsanimation"
+            },
+            "sleep": {
+                "name": "Cutscene-animation"
+            },
+            "walk": {
+                "name": "Gångcykel"
+            }
+        }
+    },
+    "music": {
+        "title": "Musik",
+        "description": "Soundtracken som sätter stämningen för Natten av Meteoriten. Varje spår förbättrar pixelart-äventyret.",
+        "list": {
+            "twilight": {
+                "name": "Skymning"
+            },
+            "tracy": {
+                "name": "Tracy"
+            },
+            "dungeon": {
+                "name": "Fängelsehåla"
+            }
+        }
     }
-  },
-  "music": {
-    "title": "Musik",
-    "description": "Soundtracken som sätter stämningen för Natten av Meteoriten. Varje spår förbättrar pixelart-äventyret.",
-    "list": {
-      "twilight": {
-        "name": "Skymning"
-      },
-      "tracy": {
-        "name": "Tracy"
-      },
-      "dungeon": {
-        "name": "Fängelsehåla"
-      }
-    }
-  }
 }
-
