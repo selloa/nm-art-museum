@@ -17,10 +17,13 @@ function LanguageSelector() {
     i18n.changeLanguage(languageCode)
   }
 
+  // Fallback to 'en' if i18n language is not available
+  const currentLanguage = i18n?.language || 'en'
+
   return (
     <div className="language-selector">
       <select
-        value={i18n.language}
+        value={currentLanguage}
         onChange={(e) => handleLanguageChange(e.target.value)}
         className="language-select"
         aria-label="Select language"
