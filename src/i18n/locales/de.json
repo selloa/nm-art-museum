@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "Nacht des Meteoriten - Kunst-Demo",
+    "backToTop": "Nach oben"
+  },
+  "hero": {
+    "title": "Nacht des Meteoriten",
+    "subtitle": "Ein Maniac Mansion Fan-Remake",
+    "description": "Willkommen in der Villa der Edisons. Vor 20 Jahren landete ein großer Meteorit im Vorgarten der Edisons. Der Meteorit war in Wirklichkeit der berüchtigte Mörderische Lila Schleimige Meteorit, der Schrecken der Galaxie! Mit Dr. Fred als Werkzeug hat der Meteorit begonnen, Teenager zu entführen, um ihnen das Gehirn auszusaugen. Die neueste Entführung betrifft Daves Freundin Sandy, die Cheerleaderin. Nicht einer, der die Dinge auf die leichte Schulter nimmt, holt sich Dave die Hilfe von Freunden und geht in die Villa, um Sandy zu finden.",
+    "descriptionSecondary": "Willkommen Künstler! Erkundet das Pixel-Art-Universum, das wir aufbauen. Scrollt nach unten, um Charaktere, Bösewichte, Schauplätze, Animationen und Musik zu entdecken.",
+    "musicButton": {
+      "play": "Hintergrundmusik abspielen",
+      "stop": "Hintergrundmusik stoppen"
+    },
+    "imageAlt": "Nacht des Meteoriten - Hauptspiel-Kunst"
+  },
+  "characters": {
+    "title": "Charaktere",
+    "description": "Lernt die Besetzung von Nacht des Meteoriten kennen. Jeder Charakter bringt einzigartige Fähigkeiten und Persönlichkeit in das Abenteuer.",
+    "list": {
+      "dave": {
+        "name": "Dave",
+        "description": "Der Held, diesen Typen musst du benutzen. Keine besonderen Fähigkeiten, aber großartiger Soundtrack."
+      },
+      "bernard": {
+        "name": "Bernard",
+        "description": "Der ansässige Nerd. Kann das Radio reparieren, um die Meteoriten-Polizei zu rufen und das Telefon zu reparieren."
+      },
+      "syd": {
+        "name": "Syd",
+        "description": "Der coole Musiker mit fantastischer Sonnenbrille. Meister des Klaviers."
+      },
+      "razor": {
+        "name": "Razor",
+        "description": "Der Punkrocker. Großartiger Klavierspieler. Genau wie Syd in jeder Hinsicht, außer dem Geschlecht."
+      },
+      "michael": {
+        "name": "Michael",
+        "description": "Der Fotograf, der Filme entwickeln kann. Der Einzige, der Weird Ed dazu bringen kann, dir zu helfen."
+      },
+      "wendy": {
+        "name": "Wendy",
+        "description": "Die Schriftstellerin, die eine berühmte Romanschriftstellerin sein will. Kann schlechte Manuskripte mit Schreibmaschinen bearbeiten."
+      },
+      "jeff": {
+        "name": "Jeff",
+        "description": "Strandtramp, dessen einziger Ehrgeiz es ist, in einem Van am Meer zu leben. Kann das Telefon reparieren."
+      }
+    }
+  },
+  "villains": {
+    "title": "Bösewichte",
+    "description": "Die Antagonisten von Nacht des Meteoriten. Jeder Bösewicht stellt einzigartige Herausforderungen und finstere Pläne dar.",
+    "list": {
+      "dr-fred": {
+        "name": "Dr. Fred Edison",
+        "description": "Ansässiger verrückter Wissenschaftler, der vom Meteoriten kontrolliert wird. War kein so schlechter Kerl, bevor der Meteorit übernahm."
+      },
+      "edna": {
+        "name": "Krankenschwester Edna Edison",
+        "description": "Eine verrückte Dame. Die einzige Edison, die NIEMALS zu deiner Seite überlaufen wird. Vermeide sie um jeden Preis."
+      },
+      "weird-ed": {
+        "name": "Weird Ed Edison",
+        "description": "Der Militärguru. Die einzige vernünftige Person in der Villa. Will nur den Meteoriten loswerden und seinen Vater retten."
+      },
+      "ted": {
+        "name": "Toter Cousin Ted Edison",
+        "description": "Technisch nie mit ihm interagiert, da er tot ist, aber wird im gesamten Herrenhaus häufig erwähnt."
+      },
+      "green-tentacle": {
+        "name": "Grüner Tentakel",
+        "description": "Zu depressiv, um sich um Eindringlinge zu kümmern. Kann ein nützlicher Verbündeter sein, aber manisch-depressiv und könnte schnell gewalttätig werden."
+      },
+      "purple-tentacle": {
+        "name": "Violetter Tentakel",
+        "description": "Bewacht die Tür zu Dr. Freds innerem Labor. Fast alle besonderen Fähigkeiten der Kinder sind darauf ausgerichtet, an diesem Typen vorbeizukommen."
+      }
+    }
+  },
+  "locations": {
+    "title": "Schauplätze",
+    "description": "Erkundet die detaillierten Pixel-Art-Umgebungen. Jeder Schauplatz ist mit Sorgfalt gestaltet, um ein immersives Abenteuer zu schaffen.",
+    "musicButton": {
+      "play": "Hintergrundmusik abspielen",
+      "stop": "Hintergrundmusik stoppen"
+    },
+    "placeholder": {
+      "label": "Hintergrund",
+      "dimensions": "640x400"
+    },
+    "list": {
+      "loc1": {
+        "name": "Villa-Eingang"
+      },
+      "loc2": {
+        "name": "Laboratorium"
+      },
+      "loc3": {
+        "name": "Keller"
+      },
+      "loc4": {
+        "name": "Dachboden"
+      },
+      "loc5": {
+        "name": "Bibliothek"
+      },
+      "loc6": {
+        "name": "Küche"
+      }
+    }
+  },
+  "animations": {
+    "title": "Animationen",
+    "description": "Pixelgenaue animierte GIFs, die die dynamischen Momente des Spiels und die Charakterbewegungen zeigen.",
+    "musicButton": {
+      "play": "Hintergrundmusik abspielen",
+      "stop": "Hintergrundmusik stoppen"
+    },
+    "list": {
+      "attack": {
+        "name": "Angriffsanimation"
+      },
+      "custom": {
+        "name": "Benutzerdefinierte Charakteranimation"
+      },
+      "host": {
+        "name": "Neue Charakteranimation"
+      },
+      "sleep": {
+        "name": "Zwischensequenz-Animation"
+      },
+      "walk": {
+        "name": "Gehzyklus"
+      }
+    }
+  },
+  "music": {
+    "title": "Musik",
+    "description": "Der Soundtrack, der die Stimmung für Nacht des Meteoriten setzt. Jeder Track verbessert das Pixel-Art-Abenteuer.",
+    "list": {
+      "twilight": {
+        "name": "Zwielicht"
+      },
+      "tracy": {
+        "name": "Tracy"
+      },
+      "dungeon": {
+        "name": "Kerker"
+      }
+    }
+  }
+}
+
+
+

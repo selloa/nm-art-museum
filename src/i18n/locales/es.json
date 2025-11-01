@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "Noche del Meteorito - Demo de Arte",
+    "backToTop": "Volver arriba"
+  },
+  "hero": {
+    "title": "Noche del Meteorito",
+    "subtitle": "Un Remake de Maniac Mansion por Fanáticos",
+    "description": "Bienvenido a la mansión de los Edison. Hace 20 años, un gran meteorito se estrelló en el jardín delantero de los Edison. El meteorito era de hecho el infame Meteorito Morado Viscoso Asesino, ¡el terror de la galaxia! Usando al Dr. Fred como herramienta, el meteorito ha comenzado a secuestrar adolescentes para chuparles el cerebro. El secuestro más reciente involucra a la novia de Dave, Sandy la animadora. No siendo alguien que toma las cosas a la ligera, Dave recluta la ayuda de amigos y entra en la mansión para encontrar a Sandy.",
+    "descriptionSecondary": "¡Bienvenidos artistas! Exploren el universo de arte pixel que estamos construyendo. Desplácense hacia abajo para descubrir personajes, villanos, ubicaciones, animaciones y música.",
+    "musicButton": {
+      "play": "Reproducir música de fondo",
+      "stop": "Detener música de fondo"
+    },
+    "imageAlt": "Noche del Meteorito - Arte Principal del Juego"
+  },
+  "characters": {
+    "title": "Personajes",
+    "description": "Conoce el elenco de Noche del Meteorito. Cada personaje aporta habilidades y personalidad únicas a la aventura.",
+    "list": {
+      "dave": {
+        "name": "Dave",
+        "description": "El héroe, tienes que usar a este tipo. Sin habilidades especiales, pero gran banda sonora."
+      },
+      "bernard": {
+        "name": "Bernard",
+        "description": "El geek residente. Puede arreglar la radio para llamar a la policía del meteorito y reparar el teléfono."
+      },
+      "syd": {
+        "name": "Syd",
+        "description": "El músico genial con gafas de sol increíbles. Maestro del piano."
+      },
+      "razor": {
+        "name": "Razor",
+        "description": "El rockero punk. Gran pianista. Igual que Syd en todos los aspectos excepto el género."
+      },
+      "michael": {
+        "name": "Michael",
+        "description": "El fotógrafo que puede revelar películas. El único que puede hacer que Weird Ed te ayude."
+      },
+      "wendy": {
+        "name": "Wendy",
+        "description": "La escritora que quiere ser una novelista famosa. Puede editar malos manuscritos con máquinas de escribir."
+      },
+      "jeff": {
+        "name": "Jeff",
+        "description": "Vagabundo de playa cuya única ambición es vivir en una furgoneta junto al mar. Puede arreglar el teléfono."
+      }
+    }
+  },
+  "villains": {
+    "title": "Villanos",
+    "description": "Los antagonistas de Noche del Meteorito. Cada villano presenta desafíos únicos y diseños oscuros.",
+    "list": {
+      "dr-fred": {
+        "name": "Dr. Fred Edison",
+        "description": "Científico loco residente controlado por el meteorito. No era tan malo antes de que el meteorito tomara el control."
+      },
+      "edna": {
+        "name": "Enfermera Edna Edison",
+        "description": "Una señora demente. La única Edison que NUNCA se unirá a tu lado. Evítala a toda costa."
+      },
+      "weird-ed": {
+        "name": "Weird Ed Edison",
+        "description": "El gurú militar. La única persona cuerda en la mansión. Solo quiere deshacerse del meteorito y salvar a su padre."
+      },
+      "ted": {
+        "name": "Primo Muerto Ted Edison",
+        "description": "Técnicamente nunca interactuado con él ya que está muerto, pero se menciona mucho a lo largo de la mansión."
+      },
+      "green-tentacle": {
+        "name": "Tentáculo Verde",
+        "description": "Demasiado deprimido para preocuparse por los intrusos. Puede ser un aliado útil, pero maníaco-depresivo y podría volverse violento rápidamente."
+      },
+      "purple-tentacle": {
+        "name": "Tentáculo Morado",
+        "description": "Guarda la puerta al laboratorio interior del Dr. Fred. Casi todas las habilidades especiales de los niños están orientadas a pasar por delante de este tipo."
+      }
+    }
+  },
+  "locations": {
+    "title": "Ubicaciones",
+    "description": "Explora los entornos de arte pixel detallados. Cada ubicación está elaborada con cuidado para crear una aventura inmersiva.",
+    "musicButton": {
+      "play": "Reproducir música de fondo",
+      "stop": "Detener música de fondo"
+    },
+    "placeholder": {
+      "label": "Fondo",
+      "dimensions": "640x400"
+    },
+    "list": {
+      "loc1": {
+        "name": "Entrada de la Mansión"
+      },
+      "loc2": {
+        "name": "Laboratorio"
+      },
+      "loc3": {
+        "name": "Sótano"
+      },
+      "loc4": {
+        "name": "Ático"
+      },
+      "loc5": {
+        "name": "Biblioteca"
+      },
+      "loc6": {
+        "name": "Cocina"
+      }
+    }
+  },
+  "animations": {
+    "title": "Animaciones",
+    "description": "GIFs animados perfectos al pixel que muestran los momentos dinámicos del juego y los movimientos de los personajes.",
+    "musicButton": {
+      "play": "Reproducir música de fondo",
+      "stop": "Detener música de fondo"
+    },
+    "list": {
+      "attack": {
+        "name": "Animación de Ataque"
+      },
+      "custom": {
+        "name": "Animación de Personaje Personalizada"
+      },
+      "host": {
+        "name": "Animación de Nuevo Personaje"
+      },
+      "sleep": {
+        "name": "Animación de Escena"
+      },
+      "walk": {
+        "name": "Ciclo de Caminar"
+      }
+    }
+  },
+  "music": {
+    "title": "Música",
+    "description": "La banda sonora que establece el ambiente para Noche del Meteorito. Cada pista mejora la aventura de arte pixel.",
+    "list": {
+      "twilight": {
+        "name": "Crepúsculo"
+      },
+      "tracy": {
+        "name": "Tracy"
+      },
+      "dungeon": {
+        "name": "Mazmorra"
+      }
+    }
+  }
+}
+
+
+
