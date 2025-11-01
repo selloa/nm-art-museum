@@ -1,0 +1,154 @@
+{
+    "app": {
+        "title": "",
+        "backToTop": "",
+        "footer": ""
+    },
+    "hero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "descriptionSecondary": "",
+        "musicButton": {
+            "play": "",
+            "stop": ""
+        },
+        "imageAlt": ""
+    },
+    "characters": {
+        "title": "",
+        "description": "",
+        "list": {
+            "dave": {
+                "name": "",
+                "description": ""
+            },
+            "bernard": {
+                "name": "",
+                "description": ""
+            },
+            "syd": {
+                "name": "",
+                "description": ""
+            },
+            "razor": {
+                "name": "",
+                "description": ""
+            },
+            "michael": {
+                "name": "",
+                "description": ""
+            },
+            "wendy": {
+                "name": "",
+                "description": ""
+            },
+            "jeff": {
+                "name": "",
+                "description": ""
+            }
+        }
+    },
+    "villains": {
+        "title": "",
+        "description": "",
+        "list": {
+            "dr-fred": {
+                "name": "",
+                "description": ""
+            },
+            "edna": {
+                "name": "",
+                "description": ""
+            },
+            "weird-ed": {
+                "name": "",
+                "description": ""
+            },
+            "ted": {
+                "name": "",
+                "description": ""
+            },
+            "green-tentacle": {
+                "name": "",
+                "description": ""
+            },
+            "purple-tentacle": {
+                "name": "",
+                "description": ""
+            }
+        }
+    },
+    "locations": {
+        "title": "",
+        "description": "",
+        "musicButton": {
+            "play": "",
+            "stop": ""
+        },
+        "placeholder": {
+            "label": "",
+            "dimensions": ""
+        },
+        "list": {
+            "loc1": {
+                "name": ""
+            },
+            "loc2": {
+                "name": ""
+            },
+            "loc3": {
+                "name": ""
+            },
+            "loc4": {
+                "name": ""
+            },
+            "loc5": {
+                "name": ""
+            },
+            "loc6": {
+                "name": ""
+            }
+        }
+    },
+    "animations": {
+        "title": "",
+        "description": "",
+        "musicButton": {
+            "play": "",
+            "stop": ""
+        },
+        "list": {
+            "attack": {
+                "name": ""
+            },
+            "custom": {
+                "name": ""
+            },
+            "host": {
+                "name": ""
+            },
+            "sleep": {
+                "name": ""
+            },
+            "walk": {
+                "name": ""
+            }
+        }
+    },
+    "music": {
+        "title": "",
+        "description": "",
+        "list": {
+            "twilight": {
+                "name": ""
+            },
+            "tracy": {
+                "name": ""
+            },
+            "dungeon": {
+                "name": ""
+            }
+        }
+    }
+}
