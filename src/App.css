@@ -1,7 +1,9 @@
 .app {
   width: 100%;
+  max-width: 100%;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* Back to Top Button */
@@ -47,6 +49,8 @@ section {
 @media (max-width: 768px) {
   section {
     padding: 60px 16px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .back-to-top {
