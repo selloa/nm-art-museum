@@ -1,0 +1,29 @@
+# Weblate Component Configuration
+# This file helps Weblate discover and configure translation components
+# Most settings are configured in the Weblate web interface
+
+[component]
+# Component name as it will appear in Weblate
+name = Night of the Meteor Translations
+
+# File format: JSON for i18next/react-i18next
+file_format = json
+
+# File mask: matches all JSON translation files
+filemask = src/i18n/locales/*.json
+
+# Template file: English (en) is the source language
+template = src/i18n/locales/en.json
+
+# Base file for new translations
+new_base = src/i18n/locales/en.json
+
+# Do not allow editing the source language template
+edit_template = false
+
+# Add new language files automatically when translations are added
+new_lang = add
+
+# Repository branch to use (optional, defaults to main/master)
+# branch = test-weblate
+
