@@ -1,0 +1,155 @@
+{
+    "app": {
+        "title": "This be a test for language creation || Night o' the Meteor - Art Demo",
+        "backToTop": "Back t' the top",
+        "footer": "Hast ye spotted a typo or strange translation? Good! Please get in contact an' help translate the game, matey."
+    },
+    "hero": {
+        "title": "Night o' the Meteor",
+        "subtitle": "A Maniac Mansion Fan Remake",
+        "description": "Welcome t' the mansion o' the Edison's, ye scallywag! Twenty years ago, a large meteor crash-landed in the Edison's front yard. The meteor was in fact the infamous Murderous Purple Slimy Meteor, the terror o' the galaxy! Usin' Dr. Fred as its tool, the meteor has begun swipin' teenagers t' suck their brains out. The newest kidnap involves Dave's girlfriend Sandy the cheerleader. Not one t' take things lightly, Dave enlists the help o' friends an' goes into the mansion t' find Sandy.",
+        "descriptionSecondary": "Welcome artists! Explore the pixel art universe we're buildin'. Scroll down t' discover characters, villains, locations, animations, an' music, arr!",
+        "musicButton": {
+            "play": "Play background music",
+            "stop": "Avast! Stop background music"
+        },
+        "imageAlt": "Night o' the Meteor - Main Game Art"
+    },
+    "characters": {
+        "title": "Characters",
+        "description": "Meet the cast o' Night o' the Meteor, ye landlubbers. Each character brings unique abilities an' personality t' the adventure.",
+        "list": {
+            "dave": {
+                "name": "Dave",
+                "description": "The hero, ye have t' use this lad. No special skills, but great soundtrack, arr!"
+            },
+            "bernard": {
+                "name": "Bernard",
+                "description": "The resident geek. Can fix the radio t' call the meteor police an' repair the telephone, matey."
+            },
+            "syd": {
+                "name": "Syd",
+                "description": "The cool musician with awesome shades. Master o' the piano, ye scallywag."
+            },
+            "razor": {
+                "name": "Razor",
+                "description": "The punk rocker. Great piano player. The same as Syd in every respect but gender, arr!"
+            },
+            "michael": {
+                "name": "Michael",
+                "description": "The photographer who can develop film. The only one who can get Weird Ed t' help ye out, matey."
+            },
+            "wendy": {
+                "name": "Wendy",
+                "description": "The writer who wants t' be a famous novelist. Can edit bad manuscripts with typewriters, arr!"
+            },
+            "jeff": {
+                "name": "Jeff",
+                "description": "Beach bum whose only ambition be t' live in a van by the sea. Can fix the phone, ye scallywag."
+            }
+        }
+    },
+    "villains": {
+        "title": "Villains",
+        "description": "The antagonists o' Night o' the Meteor. Each villain presents unique challenges an' dark designs, arr!",
+        "list": {
+            "dr-fred": {
+                "name": "Dr. Fred Edison",
+                "description": "Resident mad scientist controlled by the meteor. Wasn't such a bad lad before the meteor took over, matey."
+            },
+            "edna": {
+                "name": "Nurse Edna Edison",
+                "description": "One demented lady. The only Edison who will NEVER join yer side, ye scallywag. Avoid her at all costs, arr!"
+            },
+            "weird-ed": {
+                "name": "Weird Ed Edison",
+                "description": "The military guru. The only sane person in the mansion. Just wants t' get rid o' the meteor an' save his father, matey."
+            },
+            "ted": {
+                "name": "Dead Cousin Ted Edison",
+                "description": "Technically never interacted with since he's dead, but gets mentioned a lot throughout the mansion, arr!"
+            },
+            "green-tentacle": {
+                "name": "Green Tentacle",
+                "description": "Too depressed t' care about intruders. Can be a useful ally, but manic-depressive an' could turn violent quickly, ye scallywag."
+            },
+            "purple-tentacle": {
+                "name": "Purple Tentacle",
+                "description": "Guards the door t' Dr. Fred's inner lab. Almost all o' the kid's special skills be geared toward gettin' past this lad, arr!"
+            }
+        }
+    },
+    "locations": {
+        "title": "Locations",
+        "description": "Explore the detailed pixel art environments, ye scallywag. Each location be crafted with care t' create an immersive adventure.",
+        "musicButton": {
+            "play": "Play background music",
+            "stop": "Avast! Stop background music"
+        },
+        "placeholder": {
+            "label": "Background",
+            "dimensions": "640x400"
+        },
+        "list": {
+            "loc1": {
+                "name": "Mansion Entrance"
+            },
+            "loc2": {
+                "name": "Labratory"
+            },
+            "loc3": {
+                "name": "Basement"
+            },
+            "loc4": {
+                "name": "Attic"
+            },
+            "loc5": {
+                "name": "Library"
+            },
+            "loc6": {
+                "name": "Kitchen"
+            }
+        }
+    },
+    "animations": {
+        "title": "Animations",
+        "description": "Pixel-perfect animated GIFs showcasin' the game's dynamic moments an' character movements, arr!",
+        "musicButton": {
+            "play": "Play background music",
+            "stop": "Avast! Stop background music"
+        },
+        "list": {
+            "attack": {
+                "name": "Attack Animation"
+            },
+            "custom": {
+                "name": "Custom Character Animation"
+            },
+            "host": {
+                "name": "New Character Animation"
+            },
+            "sleep": {
+                "name": "Cutscene Animation"
+            },
+            "walk": {
+                "name": "Walk Cycle"
+            }
+        }
+    },
+    "music": {
+        "title": "Music",
+        "description": "The soundtrack that sets the mood for Night o' the Meteor, matey. Each track enhances the pixel art adventure, arr!",
+        "list": {
+            "twilight": {
+                "name": "Twilight"
+            },
+            "tracy": {
+                "name": "Tracy"
+            },
+            "dungeon": {
+                "name": "Dungeon"
+            }
+        }
+    }
+}
+

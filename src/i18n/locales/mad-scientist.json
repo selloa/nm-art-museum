@@ -1,0 +1,155 @@
+{
+    "app": {
+        "title": "This is a test for language creation || Night of the Meteor - Art Demo",
+        "backToTop": "Return to top of specimen",
+        "footer": "Have you observed a typo or anomalous translation? Excellent! Please contact the laboratory and assist in translating the game, my colleague!"
+    },
+    "hero": {
+        "title": "Night of the Meteor",
+        "subtitle": "A Maniac Mansion Fan Remake",
+        "description": "Welcome to the Edison mansion, subject! Twenty years ago, a large meteor crash-landed in the Edison's front yard. Fascinating! The meteor was in fact the infamous Murderous Purple Slimy Meteor - observe! The terror of the galaxy itself! Using Dr. Fred as its instrument, the meteor has commenced swiping teenagers to extract their cerebral matter! The newest abduction involves Dave's girlfriend Sandy the cheerleader. Note: Not one to accept defeat, Dave enlists the assistance of colleagues and infiltrates the mansion to locate Sandy.",
+        "descriptionSecondary": "Welcome, fellow researchers! Explore the pixel art universe we are constructing in our laboratory! Scroll down to discover characters, villains, locations, animations, and music - observe the data!",
+        "musicButton": {
+            "play": "Initiate background music",
+            "stop": "Cease background music experiment"
+        },
+        "imageAlt": "Night of the Meteor - Main Game Art"
+    },
+    "characters": {
+        "title": "Characters",
+        "description": "Observe the cast of Night of the Meteor, my colleague! Each subject brings unique capabilities and behavioral patterns to the experiment... I mean, adventure!",
+        "list": {
+            "dave": {
+                "name": "Dave",
+                "description": "The primary subject - you must utilize this specimen. No extraordinary abilities observed, but excellent audio accompaniment, fascinating!"
+            },
+            "bernard": {
+                "name": "Bernard",
+                "description": "The resident technical specialist. Capable of repairing the radio apparatus to contact meteor enforcement and restoring telephone communications. Remarkable!"
+            },
+            "syd": {
+                "name": "Syd",
+                "description": "The cool musician with superior optical protection devices. Master of the piano instrument. Observe his technique!"
+            },
+            "razor": {
+                "name": "Razor",
+                "description": "The punk rocker specimen. Exceptional piano performance capabilities. Identical to Syd in every measurable aspect except gender classification. Fascinating anomaly!"
+            },
+            "michael": {
+                "name": "Michael",
+                "description": "The photographer who can process photographic film. The only subject who can persuade Weird Ed to assist you in the experiment. Note this variable!"
+            },
+            "wendy": {
+                "name": "Wendy",
+                "description": "The writer who desires fame as a novelist. Capable of editing defective manuscripts using typewriter technology. Observe the process!"
+            },
+            "jeff": {
+                "name": "Jeff",
+                "description": "Beach-dwelling subject whose sole ambition is vehicular habitation by the sea. Can restore telephone functionality. Minimal motivation, but useful!"
+            }
+        }
+    },
+    "villains": {
+        "title": "Villains",
+        "description": "Observe the antagonists of Night of the Meteor! Each presents unique experimental challenges and dark designs worthy of study, my colleague!",
+        "list": {
+            "dr-fred": {
+                "name": "Dr. Fred Edison",
+                "description": "Resident mad scientist controlled by the meteor specimen. Was not such a poor subject before the meteor assumed control. A cautionary tale!"
+            },
+            "edna": {
+                "name": "Nurse Edna Edison",
+                "description": "One demented specimen. The only Edison who will NEVER join your research team - avoid at all costs! Highly dangerous variable!"
+            },
+            "weird-ed": {
+                "name": "Weird Ed Edison",
+                "description": "The military strategy specialist. The only mentally stable person in the mansion laboratory. Desires only meteor elimination and paternal rescue. Fascinating subject!"
+            },
+            "ted": {
+                "name": "Dead Cousin Ted Edison",
+                "description": "Technically never interacted with since deceased state achieved, but frequently mentioned throughout the mansion. Referenced specimen!"
+            },
+            "green-tentacle": {
+                "name": "Green Tentacle",
+                "description": "Too depressed to concern itself with intruders. Potentially useful ally, but exhibits manic-depressive tendencies and could become violent rapidly. Handle with caution!"
+            },
+            "purple-tentacle": {
+                "name": "Purple Tentacle",
+                "description": "Guards the entrance to Dr. Fred's inner laboratory. Nearly all juvenile special abilities are designed for bypassing this specimen. Critical obstacle!"
+            }
+        }
+    },
+    "locations": {
+        "title": "Locations",
+        "description": "Examine the detailed pixel art environments, my colleague! Each location is meticulously crafted to create an immersive experimental environment... adventure!",
+        "musicButton": {
+            "play": "Initiate background music",
+            "stop": "Cease background music experiment"
+        },
+        "placeholder": {
+            "label": "Background",
+            "dimensions": "640x400"
+        },
+        "list": {
+            "loc1": {
+                "name": "Mansion Entrance"
+            },
+            "loc2": {
+                "name": "Labratory"
+            },
+            "loc3": {
+                "name": "Basement"
+            },
+            "loc4": {
+                "name": "Attic"
+            },
+            "loc5": {
+                "name": "Library"
+            },
+            "loc6": {
+                "name": "Kitchen"
+            }
+        }
+    },
+    "animations": {
+        "title": "Animations",
+        "description": "Pixel-perfect animated GIFs showcasing the game's dynamic moments and character movements. Observe the data, my colleague!",
+        "musicButton": {
+            "play": "Initiate background music",
+            "stop": "Cease background music experiment"
+        },
+        "list": {
+            "attack": {
+                "name": "Attack Animation"
+            },
+            "custom": {
+                "name": "Custom Character Animation"
+            },
+            "host": {
+                "name": "New Character Animation"
+            },
+            "sleep": {
+                "name": "Cutscene Animation"
+            },
+            "walk": {
+                "name": "Walk Cycle"
+            }
+        }
+    },
+    "music": {
+        "title": "Music",
+        "description": "The soundtrack that establishes the atmospheric conditions for Night of the Meteor! Each track enhances the pixel art experimental... adventure, my colleague!",
+        "list": {
+            "twilight": {
+                "name": "Twilight"
+            },
+            "tracy": {
+                "name": "Tracy"
+            },
+            "dungeon": {
+                "name": "Dungeon"
+            }
+        }
+    }
+}
+

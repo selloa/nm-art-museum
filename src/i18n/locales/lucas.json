@@ -1,0 +1,155 @@
+{
+    "app": {
+        "title": "This is a test for language creation || Night of the Meteor - Art Demo",
+        "backToTop": "Return whence you came",
+        "footer": "Found a typo? A strange translation? Excellent! That means you're paying attention. Do contact us and help translate the game. We promise not to make you walk the plank."
+    },
+    "hero": {
+        "title": "Night of the Meteor",
+        "subtitle": "A Maniac Mansion Fan Remake",
+        "description": "Welcome to the Edison mansion. It's like a normal mansion, except for the large meteor that crash-landed in the front yard twenty years ago. That meteor, as luck would have it, is actually the infamous Murderous Purple Slimy Meteor—fear of galaxies everywhere! Using Dr. Fred as its unwilling instrument, the meteor has taken to kidnapping teenagers to... well, extract their brains. Classy. The latest victim is Dave's girlfriend Sandy, a cheerleader who probably didn't sign up for this. Dave, being the hero type (or at least pretending to be), has gathered some friends and is heading into the mansion to rescue her. What could possibly go wrong?",
+        "descriptionSecondary": "Welcome, artists and pixel enthusiasts! This is where we showcase the universe we're crafting, one pixel at a time. Scroll down to discover characters, villains, locations, animations, and music. You might learn something. Or not. Either way, enjoy the ride!",
+        "musicButton": {
+            "play": "Play background music (it's quite catchy)",
+            "stop": "Stop background music (it's getting on your nerves, isn't it?)"
+        },
+        "imageAlt": "Night of the Meteor - Main Game Art"
+    },
+    "characters": {
+        "title": "Characters",
+        "description": "Meet the cast of Night of the Meteor. Each character brings unique abilities and personality to the adventure. Some are more useful than others, but we won't name names.",
+        "list": {
+            "dave": {
+                "name": "Dave",
+                "description": "The hero. You pretty much have to use this guy, like it or not. No special skills to speak of, but he does come with a killer soundtrack. That's... something, right?"
+            },
+            "bernard": {
+                "name": "Bernard",
+                "description": "The resident geek. Handy with gadgets—can fix the radio to call the meteor police (yes, that's a thing) and repair telephones. You'd think someone would have invented better communication by now, but here we are."
+            },
+            "syd": {
+                "name": "Syd",
+                "description": "The cool musician with awesome shades. A master of the piano, though we're not entirely sure why that's relevant to stopping a brain-sucking meteor. Maybe he plays a mean lullaby?"
+            },
+            "razor": {
+                "name": "Razor",
+                "description": "The punk rocker. Also a great piano player. Essentially Syd in every way except gender. We're not judging, just... noting."
+            },
+            "michael": {
+                "name": "Michael",
+                "description": "The photographer who can develop film. The only one who can convince Weird Ed to help you out. How? We're not entirely sure, but something about developing photos apparently makes Ed trust you. People are strange."
+            },
+            "wendy": {
+                "name": "Wendy",
+                "description": "The writer who dreams of being a famous novelist. Can edit bad manuscripts using typewriters. Why typewriters? Because nothing says 'modern adventure game' like vintage office equipment."
+            },
+            "jeff": {
+                "name": "Jeff",
+                "description": "A beach bum whose only ambition in life is to live in a van by the sea. Can fix the phone. His life goals might be simple, but at least he's consistent."
+            }
+        }
+    },
+    "villains": {
+        "title": "Villains",
+        "description": "The antagonists of Night of the Meteor. Each villain presents unique challenges and dark designs. Some are more dangerous than others. Some are just... weird.",
+        "list": {
+            "dr-fred": {
+                "name": "Dr. Fred Edison",
+                "description": "Resident mad scientist, currently being controlled by the meteor. Word has it he wasn't such a terrible guy before the meteor took over. But you know how it is—meteor mind control really brings out the worst in people."
+            },
+            "edna": {
+                "name": "Nurse Edna Edison",
+                "description": "One demented lady. The only Edison who will NEVER join your side, no matter what you do. Avoid her at all costs. Seriously. We cannot stress this enough. Just... don't."
+            },
+            "weird-ed": {
+                "name": "Weird Ed Edison",
+                "description": "The military guru. Shockingly, the only sane person in the entire mansion. Just wants to get rid of the meteor and save his father. A reasonable goal, all things considered."
+            },
+            "ted": {
+                "name": "Dead Cousin Ted Edison",
+                "description": "Technically never interacted with, since he's dead and all. But he gets mentioned a lot throughout the mansion. You'd think death would earn you some peace and quiet, but apparently not in this family."
+            },
+            "green-tentacle": {
+                "name": "Green Tentacle",
+                "description": "Too depressed to care about intruders. Could be a useful ally, but he's manic-depressive and could turn violent at the drop of a hat. Or tentacle. Proceed with caution."
+            },
+            "purple-tentacle": {
+                "name": "Purple Tentacle",
+                "description": "Guards the door to Dr. Fred's inner lab. Almost all of the kids' special skills are geared toward getting past this guy. He's basically the final boss of tentacle-based security systems."
+            }
+        }
+    },
+    "locations": {
+        "title": "Locations",
+        "description": "Explore the detailed pixel art environments. Each location is crafted with care to create an immersive adventure. Or at least that's what we tell ourselves.",
+        "musicButton": {
+            "play": "Play background music",
+            "stop": "Stop background music (if you must)"
+        },
+        "placeholder": {
+            "label": "Background",
+            "dimensions": "640x400"
+        },
+        "list": {
+            "loc1": {
+                "name": "Mansion Entrance"
+            },
+            "loc2": {
+                "name": "Laboratory"
+            },
+            "loc3": {
+                "name": "Basement"
+            },
+            "loc4": {
+                "name": "Attic"
+            },
+            "loc5": {
+                "name": "Library"
+            },
+            "loc6": {
+                "name": "Kitchen"
+            }
+        }
+    },
+    "animations": {
+        "title": "Animations",
+        "description": "Pixel-perfect animated GIFs showcasing the game's dynamic moments and character movements. They loop. A lot. You've been warned.",
+        "musicButton": {
+            "play": "Play background music",
+            "stop": "Stop background music"
+        },
+        "list": {
+            "attack": {
+                "name": "Attack Animation"
+            },
+            "custom": {
+                "name": "Custom Character Animation"
+            },
+            "host": {
+                "name": "New Character Animation"
+            },
+            "sleep": {
+                "name": "Cutscene Animation"
+            },
+            "walk": {
+                "name": "Walk Cycle"
+            }
+        }
+    },
+    "music": {
+        "title": "Music",
+        "description": "The soundtrack that sets the mood for Night of the Meteor. Each track enhances the pixel art adventure. Or at least tries to. Some tracks are more successful than others, but we're not naming names.",
+        "list": {
+            "twilight": {
+                "name": "Twilight"
+            },
+            "tracy": {
+                "name": "Tracy"
+            },
+            "dungeon": {
+                "name": "Dungeon"
+            }
+        }
+    }
+}
+

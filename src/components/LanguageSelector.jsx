@@ -14,6 +14,11 @@ const languageMetadata = {
   sv: { name: 'Svenska', flag: '🇸🇪' },
   fi: { name: 'Suomi', flag: '🇫🇮' },
   no: { name: 'Norsk', flag: '🇳🇴' },
+  pirate: { name: 'English (Pirate)', flag: '🏴‍☠️' },
+  yoda: { name: 'Yoda', flag: '🧙' },
+  'mad-scientist': { name: 'Mad Scientist', flag: '🔬' },
+  dott: { name: 'Dott', flag: '🐙' },
+  lucas: { name: 'Lucas', flag: '🎮' },
   // Add more as needed, or they'll fall back to native name
 }
 
@@ -31,9 +36,9 @@ function LanguageSelector() {
   
   // Dynamically build languages list from available locales
   const languages = useMemo(() => {
-    const availableCodes = getAvailableLanguages().sort()
+    const availableCodes = getAvailableLanguages()
     
-    return availableCodes.map((code) => {
+    const languagesList = availableCodes.map((code) => {
       const metadata = languageMetadata[code]
       if (metadata) {
         return { code, ...metadata }
@@ -45,6 +50,9 @@ function LanguageSelector() {
         flag: '', // No flag for unknown languages
       }
     })
+    
+    // Sort by display name alphabetically
+    return languagesList.sort((a, b) => a.name.localeCompare(b.name))
   }, [])
 
   const handleLanguageChange = (languageCode) => {

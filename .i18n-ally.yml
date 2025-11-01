@@ -26,6 +26,11 @@ enabledLanguages:
   - sv
   - fi
   - no
+  - pirate
+  - yoda
+  - mad-scientist
+  - dott
+  - lucas
 
 # Framework configuration
 frameworks:
