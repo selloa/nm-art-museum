@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Notte della Meteora - Demo d'Arte",
-    "backToTop": "Torna in alto"
+    "backToTop": "Torna in alto",
+    "footer": "Hai notato una traduzione strana? Era un test. Unisciti al team di traduzione!"
   },
   "hero": {
     "title": "Notte della Meteora",

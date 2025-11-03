@@ -42,6 +42,11 @@ function App() {
       <Animations />
       <Music />
 
+      {/* Footer */}
+      <footer className="app-footer">
+        <p>{t('app.footer')}</p>
+      </footer>
+
       {/* Back to Top Button */}
       {showBackToTop && (
         <button

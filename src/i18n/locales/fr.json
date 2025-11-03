@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Nuit de la Météorite - Démo d'Art",
-    "backToTop": "Retour en haut"
+    "backToTop": "Retour en haut",
+    "footer": "Avez-vous repéré une traduction étrange ? C'était un test. Rejoignez l'équipe de traduction !"
   },
   "hero": {
     "title": "Nuit de la Météorite",

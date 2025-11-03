@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Meteoriitin Yö - Taidetemo",
-    "backToTop": "Takaisin ylös"
+    "backToTop": "Takaisin ylös",
+    "footer": "Huomasitko kummallisen käännöksen? Se oli testi. Liity käännösryhmään!"
   },
   "hero": {
     "title": "Meteoriitin Yö",

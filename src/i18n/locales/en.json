@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Night of the Meteor - Art Demo",
-    "backToTop": "Back to top"
+    "backToTop": "Back to top",
+    "footer": "Did you spot a strange translation? That was a test. Join the translation team!"
   },
   "hero": {
     "title": "Night of the Meteor",

@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Natten av Meteoriten - Konstdemo",
-    "backToTop": "Tillbaka till toppen"
+    "backToTop": "Tillbaka till toppen",
+    "footer": "Såg du en märklig översättning? Det var ett test. Gå med i översättningsteamet!"
   },
   "hero": {
     "title": "Natten av Meteoriten",

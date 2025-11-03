@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Noche del Meteorito - Demo de Arte",
-    "backToTop": "Volver arriba"
+    "backToTop": "Volver arriba",
+    "footer": "¿Notaste una traducción extraña? Eso fue una prueba. ¡Únete al equipo de traducción!"
   },
   "hero": {
     "title": "Noche del Meteorito",

@@ -1,7 +1,8 @@
 {
   "app": {
     "title": "Nacht des Meteoriten - Kunst-Demo",
-    "backToTop": "Nach oben"
+    "backToTop": "Nach oben",
+    "footer": "Hast du eine seltsame Übersetzung bemerkt? Das war ein Test. Werde Teil des Übersetzungsteams!"
   },
   "hero": {
     "title": "Nacht des Meteoriten",
