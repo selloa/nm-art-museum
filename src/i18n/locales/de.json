@@ -150,6 +150,18 @@
         "name": "Kerker"
       }
     }
+  },
+  "interestForm": {
+    "title": "Werde Teil des Teams",
+    "description": "Hilf uns dabei, Nacht des Meteoriten fertigzustellen! Wir suchen talentierte Pixel-Art-Künstler und andere Kreative, die ihre Kreativität einbringen möchten.",
+    "cta": "Hilf uns, das Geheimnis der Villa in Pixel-Art zu vollenden!",
+    "emailLabel": "E-Mail-Adresse",
+    "placeholder": "deine@email.de",
+    "submitButton": "Jetzt beitreten →",
+    "success": "Vielen Dank! Wir melden uns bei dir, um gemeinsam Pixel-Art zu erschaffen.",
+    "error": "Fehler beim Senden. Bitte versuche es erneut.",
+    "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "sending": "Wird gesendet..."
   }
 }
 

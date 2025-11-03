@@ -150,6 +150,18 @@
         "name": "Dungeon"
       }
     }
+  },
+  "interestForm": {
+    "title": "Unisciti al Team",
+    "description": "Aiutaci a finire Notte della Meteora! Cerchiamo artisti di pixel art talentuosi e altri creativi che vogliano contribuire con la loro creatività.",
+    "cta": "Aiutaci a completare il mistero pixelato del maniero!",
+    "emailLabel": "Indirizzo email",
+    "placeholder": "tua@email.com",
+    "submitButton": "Unisciti Ora →",
+    "success": "Grazie! Ti contatteremo per iniziare a creare pixel art insieme.",
+    "error": "Errore nell'invio. Per favore riprova.",
+    "invalidEmail": "Per favore inserisci un indirizzo email valido.",
+    "sending": "Invio in corso..."
   }
 }
 

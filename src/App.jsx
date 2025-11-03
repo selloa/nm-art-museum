@@ -6,6 +6,7 @@ import Locations from './components/Locations'
 import Characters from './components/Characters'
 import Animations from './components/Animations'
 import Music from './components/Music'
+import InterestForm from './components/InterestForm'
 import LanguageSelector from './components/LanguageSelector'
 import './App.css'
 
@@ -34,7 +35,10 @@ function App() {
         '.language-select',
         '.play-button',
         '.hero-music-button',
-        '.locations-music-button'
+        '.locations-music-button',
+        '.interest-form',
+        '.form-input',
+        '.form-submit-button'
       ]
       
       // Check if the target or any parent matches allowed selectors
@@ -147,6 +151,7 @@ function App() {
       <Characters />
       <Animations />
       <Music />
+      <InterestForm />
 
       {/* Footer */}
       <footer className="app-footer">

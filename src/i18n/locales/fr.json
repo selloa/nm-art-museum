@@ -150,6 +150,18 @@
         "name": "Donjon"
       }
     }
+  },
+  "interestForm": {
+    "title": "Rejoignez l'Équipe",
+    "description": "Aidez-nous à terminer Nuit de la Météorite ! Nous recherchons des artistes de pixel art talentueux et d'autres créatifs qui souhaitent contribuer leur créativité.",
+    "cta": "Aidez-nous à compléter le mystère pixélisé du manoir !",
+    "emailLabel": "Adresse e-mail",
+    "placeholder": "votre@email.com",
+    "submitButton": "Rejoindre Maintenant →",
+    "success": "Merci ! Nous vous contacterons pour commencer à créer du pixel art ensemble.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer.",
+    "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+    "sending": "Envoi en cours..."
   }
 }
 

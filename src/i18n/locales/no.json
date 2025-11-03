@@ -150,6 +150,18 @@
         "name": "Fangehull"
       }
     }
+  },
+  "interestForm": {
+    "title": "Bli Med i Laget",
+    "description": "Hjelp oss med å fullføre Natten av Meteoritten! Vi leter etter talentfulle pixel art-kunstnere og andre kreative som vil bidra med sin kreativitet.",
+    "cta": "Hjelp oss å fullføre herregårdens pixeliserte mysterium!",
+    "emailLabel": "E-postadresse",
+    "placeholder": "din@epost.no",
+    "submitButton": "Bli Med Nå →",
+    "success": "Takk! Vi tar kontakt for å begynne å lage pixel art sammen.",
+    "error": "Feil ved sending. Vennligst prøv igjen.",
+    "invalidEmail": "Vennligst oppgi en gyldig e-postadresse.",
+    "sending": "Sender..."
   }
 }
 

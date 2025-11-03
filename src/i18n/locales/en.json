@@ -150,6 +150,18 @@
         "name": "Dungeon"
       }
     }
+  },
+  "interestForm": {
+    "title": "Join the Team",
+    "description": "Help us finish Night of the Meteor! We're looking for talented pixel artists and other creatives who want to contribute their creativity.",
+    "cta": "Help us complete the mansion's pixelated mystery!",
+    "emailLabel": "Email address",
+    "placeholder": "your@email.com",
+    "submitButton": "Join Now →",
+    "success": "Thank you! We'll get in touch to start creating pixel art together.",
+    "error": "Error sending. Please try again.",
+    "invalidEmail": "Please enter a valid email address.",
+    "sending": "Sending..."
   }
 }
 

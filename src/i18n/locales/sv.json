@@ -150,6 +150,18 @@
         "name": "Fängelsehåla"
       }
     }
+  },
+  "interestForm": {
+    "title": "Gå Med i Laget",
+    "description": "Hjälp oss att slutföra Natten av Meteoriten! Vi söker begåvade pixel art-konstnärer och andra kreativa som vill bidra med sin kreativitet.",
+    "cta": "Hjälp oss att slutföra herrgårdens pixelade mysterium!",
+    "emailLabel": "E-postadress",
+    "placeholder": "din@epost.se",
+    "submitButton": "Gå Med Nu →",
+    "success": "Tack! Vi kontaktar dig för att börja skapa pixel art tillsammans.",
+    "error": "Fel vid sändning. Vänligen försök igen.",
+    "invalidEmail": "Vänligen ange en giltig e-postadress.",
+    "sending": "Skickar..."
   }
 }
 

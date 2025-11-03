@@ -150,6 +150,18 @@
         "name": "Tyrmä"
       }
     }
+  },
+  "interestForm": {
+    "title": "Liity Tiimiin",
+    "description": "Auta meitä viimeistelemään Meteoriitin Yö! Etsimme lahjakkaita pikselitaiteilijoita ja muita luovia, jotka haluavat tuoda luovuutensa projektiin.",
+    "cta": "Auta meitä viimeistelemään kartanon pikselöity mysteeri!",
+    "emailLabel": "Sähköpostiosoite",
+    "placeholder": "sinun@sahkoposti.fi",
+    "submitButton": "Liity Nyt →",
+    "success": "Kiitos! Otamme yhteyttä aloittaaksemme pikselitaiteen luomisen yhdessä.",
+    "error": "Lähetyksessä tapahtui virhe. Yritä uudelleen.",
+    "invalidEmail": "Ole hyvä ja syötä kelvollinen sähköpostiosoite.",
+    "sending": "Lähetetään..."
   }
 }
 

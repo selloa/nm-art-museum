@@ -150,6 +150,18 @@
         "name": "Mazmorra"
       }
     }
+  },
+  "interestForm": {
+    "title": "Únete al Equipo",
+    "description": "¡Ayúdanos a terminar Noche del Meteorito! Buscamos artistas talentosos de pixel art y otros creativos que quieran contribuir con su creatividad.",
+    "cta": "¡Ayúdanos a completar el misterio pixelado de la mansión!",
+    "emailLabel": "Dirección de correo electrónico",
+    "placeholder": "tu@email.com",
+    "submitButton": "Únete Ahora →",
+    "success": "¡Gracias! Te contactaremos para comenzar a crear pixel art juntos.",
+    "error": "Error al enviar. Por favor, inténtalo de nuevo.",
+    "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida.",
+    "sending": "Enviando..."
   }
 }
 
