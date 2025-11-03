@@ -28,7 +28,6 @@ function Animations() {
             className={`animation-card ${index < 2 ? 'animation-card-large' : 'animation-card-small'}`}
           >
             <div className="animation-image-container">
-              <div className="gif-badge">GIF</div>
               <img 
                 src={`/animations/${animation.filename}`}
                 alt={t(`animations.list.${animation.id}.name`)}

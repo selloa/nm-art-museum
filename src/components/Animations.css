@@ -116,20 +116,6 @@
   image-rendering: crisp-edges;
 }
 
-.gif-badge {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: var(--accent-secondary);
-  color: var(--bg-primary);
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  z-index: 10;
-}
-
 .animation-name {
   font-size: 1.3rem;
   font-weight: 600;
