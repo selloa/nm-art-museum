@@ -1,7 +1,8 @@
 {
     "app": {
-        "title": "Natten av Meteoriten - Konstdemo",
-        "backToTop": "Tillbaka till toppen"
+        "title": "Detta är ett test för språkskapande || Natten av Meteoriten - Konstdemo",
+        "backToTop": "Tillbaka till toppen",
+        "footer": "Har du upptäckt ett stavfel eller en konstig översättning? Bra! Kontakta oss gärna och hjälp till med att översätta spelet."
     },
     "hero": {
         "title": "Natten av Meteoriten",
